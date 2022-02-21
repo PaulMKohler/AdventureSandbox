@@ -1,0 +1,953 @@
+Unity Editor version:    2020.3.29f1 (2ff179115da0)
+Branch:                  2020.3/staging
+Build type:              Release
+Batch mode:              YES
+macOS version:           Version 11.5.2 (Build 20G95)
+Darwin version:          20.6.0
+Architecture:            x86_64
+Running under Rosetta:   YES
+Available memory:        8192 MB
+Using pre-set license
+Pro License: NO
+
+COMMAND LINE ARGUMENTS:
+/Applications/Unity/Hub/Editor/2020.3.29f1/Unity.app/Contents/MacOS/Unity
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+/Users/paulkohler/Repos/ACSandbox/AdventureSandbox/AdventurePlayground
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+62752
+Successfully changed project path to: /Users/paulkohler/Repos/ACSandbox/AdventureSandbox/AdventurePlayground
+/Users/paulkohler/Repos/ACSandbox/AdventureSandbox/AdventurePlayground
+Using Asset Import Pipeline V2.
+Refreshing native plugins compatible for Editor in 45.50 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2020.3.29f1 (2ff179115da0)
+[Subsystems] Discovering subsystems at path /Applications/Unity/Hub/Editor/2020.3.29f1/Unity.app/Contents/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path /Users/paulkohler/Repos/ACSandbox/AdventureSandbox/AdventurePlayground/Assets
+GfxDevice: creating device client; threaded=0
+2022-02-20 22:28:27.827 Unity[89783:15642108] (null) preferred device: Apple M1 (high power)
+2022-02-20 22:28:27.827 Unity[89783:15642108] Metal devices available: 1
+2022-02-20 22:28:27.827 Unity[89783:15642108] 0: Apple M1 (high power)
+2022-02-20 22:28:27.827 Unity[89783:15642108] Using device Apple M1 (high power)
+Initializing Metal device caps: Apple M1
+Initialize mono
+Mono path[0] = '/Applications/Unity/Hub/Editor/2020.3.29f1/Unity.app/Contents/Managed'
+Mono path[1] = '/Applications/Unity/Hub/Editor/2020.3.29f1/Unity.app/Contents/MonoBleedingEdge/lib/mono/unityjit'
+Mono config path = '/Applications/Unity/Hub/Editor/2020.3.29f1/Unity.app/Contents/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56783
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: /Applications/Unity/Hub/Editor/2020.3.29f1/Unity.app/Contents/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll
+Registered in 0.001213 seconds.
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 38.75 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.362 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1362ms)
+		BeginReloadAssembly (105ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (0ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (3ms)
+		EndReloadAssembly (1129ms)
+			LoadAssemblies (102ms)
+			RebuildTransferFunctionScriptingTraits (1ms)
+			SetupTypeCache (191ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (43ms)
+			SetupLoadedEditorAssemblies (594ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (11ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (39ms)
+				BeforeProcessingInitializeOnLoad (84ms)
+				ProcessInitializeOnLoadAttributes (343ms)
+				ProcessInitializeOnLoadMethodAttributes (115ms)
+				AfterProcessingInitializeOnLoad (0ms)
+				EditorAssembliesLoaded (1ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (0ms)
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.002698 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 0.39 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.286 seconds
+Domain Reload Profiling:
+	ReloadAssembly (2289ms)
+		BeginReloadAssembly (264ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (30ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (41ms)
+		EndReloadAssembly (1925ms)
+			LoadAssemblies (190ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (342ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (70ms)
+			SetupLoadedEditorAssemblies (1056ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (14ms)
+				SetLoadedEditorAssemblies (2ms)
+				RefreshPlugins (0ms)
+				BeforeProcessingInitializeOnLoad (213ms)
+				ProcessInitializeOnLoadAttributes (794ms)
+				ProcessInitializeOnLoadMethodAttributes (31ms)
+				AfterProcessingInitializeOnLoad (1ms)
+				EditorAssembliesLoaded (1ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (33ms)
+Platform modules already initialized, skipping
+Validating Project structure ... 0.010168 seconds.
+Shader import version has changed; will reimport all shaders...
+Upgrading shader files ...0.011744 seconds.
+Application.AssetDatabase Initial Script Refresh Start
+RefreshInfo: InitialScriptRefreshV2(NoUpdateAssetOptions) scanfilter:  ... 1 filters
+RefreshProfiler: Total: 0.000ms
+Application.AssetDatabase Initial Script Refresh End
+Application.AssetDatabase.Refresh Start
+Application.AssetDatabase.Refresh End
+RefreshInfo: StopAssetImportingV2(ForceSynchronousImport) scanfilter: 
+RefreshProfiler: Total: 0.000ms
+Launching external process: /Applications/Unity/Hub/Editor/2020.3.29f1/Unity.app/Contents/Tools/UnityShaderCompiler
+Launched and connected shader compiler UnityShaderCompiler after 0.03 seconds
+Initializing Unity extensions:
+========================================================================
+Worker process is ready to serve import requests
+Refreshing native plugins compatible for Editor in 0.37 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2042 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 204.3 MB.
+System memory in use after: 203.5 MB.
+
+Unloading 219 unused Assets to reduce memory usage. Loaded Objects now: 2521.
+Total: 2.564042 ms (FindLiveObjects: 0.109500 ms CreateObjectMapping: 0.043250 ms MarkObjects: 1.971125 ms  DeleteObjects: 0.439500 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  path: Assets/TutorialFiles/EvilLair/Set/Materials/LiftFloor.mat
+  artifactKey: Guid(60a50b02cfdab4e429e97a6cd110c6e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TutorialFiles/EvilLair/Set/Materials/LiftFloor.mat using Guid(60a50b02cfdab4e429e97a6cd110c6e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '210dea4b68fd4a86285268d138b85db5') in 0.922870 seconds 
+  Import took 0.928834 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000283 seconds.
+  path: Assets/TutorialFiles/EvilLair/Set/Materials/Fireplace.mat
+  artifactKey: Guid(dbb9f6bcd8b454ff3bdac9183a593ee8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TutorialFiles/EvilLair/Set/Materials/Fireplace.mat using Guid(dbb9f6bcd8b454ff3bdac9183a593ee8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e75efc06826e0244b827c488a1b4c0c7') in 0.026049 seconds 
+  Import took 0.031614 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001044 seconds.
+  path: Assets/TutorialFiles/EvilLair/Set/Materials/CoffeeTable3.mat
+  artifactKey: Guid(79514d434e1ce4d738724db5b10bfa01) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TutorialFiles/EvilLair/Set/Materials/CoffeeTable3.mat using Guid(79514d434e1ce4d738724db5b10bfa01) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b81888254ef16928e48713dc84ac0400') in 0.010739 seconds 
+  Import took 0.013741 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000247 seconds.
+  path: Assets/TutorialFiles/EvilLair/Set/Materials/LaserBeam.mat
+  artifactKey: Guid(3fdf767d95498405ab7712f81ba28281) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TutorialFiles/EvilLair/Set/Materials/LaserBeam.mat using Guid(3fdf767d95498405ab7712f81ba28281) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b40522bb9befdc08a2fa2fb5d906d1d8') in 0.078409 seconds 
+  Import took 0.080993 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000329 seconds.
+  path: Assets/TutorialFiles/EvilLair/Set/Materials/Glass.mat
+  artifactKey: Guid(45b2bbcdb70b94c24a4afbff3f1e7fd6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TutorialFiles/EvilLair/Set/Materials/Glass.mat using Guid(45b2bbcdb70b94c24a4afbff3f1e7fd6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '97c4c9757dbe8520cb0574d2b78b0a71') in 0.022635 seconds 
+  Import took 0.024978 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000339 seconds.
+  path: Assets/TutorialFiles/EvilLair/Set/Materials/Log.mat
+  artifactKey: Guid(6a53d87920d3a444db94194818748866) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TutorialFiles/EvilLair/Set/Materials/Log.mat using Guid(6a53d87920d3a444db94194818748866) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c2c680ba1762c835e2c6d9b350b81fb4') in 0.006421 seconds 
+  Import took 0.009415 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000300 seconds.
+  path: Assets/TutorialFiles/EvilLair/Set/EvilLair.fbx
+  artifactKey: Guid(0c0ee13a0d05340c4a3abd1be90fd27c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TutorialFiles/EvilLair/Set/EvilLair.fbx using Guid(0c0ee13a0d05340c4a3abd1be90fd27c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cecf2addb2eef4ae6d9a22df2381f5d4') in 0.514084 seconds 
+  Import took 0.522822 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000366 seconds.
+  path: Assets/TutorialFiles/EvilLair/Set/Materials/No Name.mat
+  artifactKey: Guid(b7462be2d07ec480bafe8942c9de5746) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TutorialFiles/EvilLair/Set/Materials/No Name.mat using Guid(b7462be2d07ec480bafe8942c9de5746) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1e605af5b9b9c951591acc727ae62b95') in 0.007818 seconds 
+  Import took 0.010670 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000269 seconds.
+  path: Assets/TutorialFiles/EvilLair/Set/Textures/Carpet0004_2_S.jpg
+  artifactKey: Guid(6b0e48ac8c87844658ba4a94d0e0dd51) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TutorialFiles/EvilLair/Set/Textures/Carpet0004_2_S.jpg using Guid(6b0e48ac8c87844658ba4a94d0e0dd51) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '35ef3b8b538104b5972f6a668a94f7d4') in 0.459007 seconds 
+  Import took 0.464873 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000226 seconds.
+  path: Assets/TutorialFiles/EvilLair/Set/Materials/Screen.mat
+  artifactKey: Guid(0d9d87db380da4b1eb29326c89d08dab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TutorialFiles/EvilLair/Set/Materials/Screen.mat using Guid(0d9d87db380da4b1eb29326c89d08dab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a3c15fcdb7c41b80a2a06e910b5b9672') in 0.006221 seconds 
+  Import took 0.008637 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000252 seconds.
+  path: Assets/TutorialFiles/EvilLair/Set/Materials/InstructionManual.mat
+  artifactKey: Guid(9eafce4b28a2945adb072311c7262c13) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TutorialFiles/EvilLair/Set/Materials/InstructionManual.mat using Guid(9eafce4b28a2945adb072311c7262c13) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'afe8726b36b12860d2f4149c1d93836d') in 0.012806 seconds 
+  Import took 0.015185 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000307 seconds.
+  path: Assets/TutorialFiles/EvilLair/Set/Textures/Wood.jpg
+  artifactKey: Guid(306590bd87853489fa2e11ca0cab2bde) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TutorialFiles/EvilLair/Set/Textures/Wood.jpg using Guid(306590bd87853489fa2e11ca0cab2bde) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b7f890198385273f1bf29a26511434c3') in 0.007060 seconds 
+  Import took 0.009584 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000280 seconds.
+  path: Assets/TutorialFiles/EvilLair/TinPot/EL_TinPot.fbx
+  artifactKey: Guid(c58c091ad40c249c38efc31695c1b8d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TutorialFiles/EvilLair/TinPot/EL_TinPot.fbx using Guid(c58c091ad40c249c38efc31695c1b8d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0111c37b74fc9e4f130b4d3fefce07b1') in 0.079957 seconds 
+  Import took 0.083573 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000290 seconds.
+  path: Assets/TutorialFiles/EvilLair/Set/Materials/Ceiling.mat
+  artifactKey: Guid(2b451665d7c304d709c8afff9a8b010e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TutorialFiles/EvilLair/Set/Materials/Ceiling.mat using Guid(2b451665d7c304d709c8afff9a8b010e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1ed308025800af2f691a0914dba63f71') in 0.006327 seconds 
+  Import took 0.008928 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000384 seconds.
+  path: Assets/TutorialFiles/EvilLair/Set/Materials/Laser2.mat
+  artifactKey: Guid(7e701a9b12b94408f8a57c0661c785b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TutorialFiles/EvilLair/Set/Materials/Laser2.mat using Guid(7e701a9b12b94408f8a57c0661c785b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7a9498c11b958039cddf4dc0ead0ea68') in 0.006183 seconds 
+  Import took 0.008626 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000184 seconds.
+  path: Assets/TutorialFiles/EvilLair/Set/Materials/LiftGroove.mat
+  artifactKey: Guid(59b467c886289420c9e61ed0a7e577aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TutorialFiles/EvilLair/Set/Materials/LiftGroove.mat using Guid(59b467c886289420c9e61ed0a7e577aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6443c49b371166dd18ed72ea7699fc1a') in 0.006263 seconds 
+  Import took 0.008553 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001480 seconds.
+  path: Assets/TutorialFiles/EvilLair/Set/Materials/CoffeeTable2.mat
+  artifactKey: Guid(b241ab92e232c476a9c6a5a82b8d556f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TutorialFiles/EvilLair/Set/Materials/CoffeeTable2.mat using Guid(b241ab92e232c476a9c6a5a82b8d556f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c5ad5e60949515aea5ca0b0febaee7ad') in 0.006267 seconds 
+  Import took 0.009060 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000210 seconds.
+  path: Assets/TutorialFiles/EvilLair/Set/Materials/LiftCeiling.mat
+  artifactKey: Guid(18a14c3c48af34bf5aa2509a5574a1fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TutorialFiles/EvilLair/Set/Materials/LiftCeiling.mat using Guid(18a14c3c48af34bf5aa2509a5574a1fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ea0b548f6a2b86f7b1409d2f713f928c') in 0.008700 seconds 
+  Import took 0.011215 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000236 seconds.
+  path: Assets/TutorialFiles/EvilLair/Set/Materials/Television.mat
+  artifactKey: Guid(b818016f87bb34e5b8aa7394da014fe9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TutorialFiles/EvilLair/Set/Materials/Television.mat using Guid(b818016f87bb34e5b8aa7394da014fe9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3d135ff00c6b490b8e93ad1460c4802e') in 0.006161 seconds 
+  Import took 0.008502 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000236 seconds.
+  path: Assets/TutorialFiles/EvilLair/Set/Materials/CupboardDoor.mat
+  artifactKey: Guid(43819d71bd67246f2ba64b9e3d9d6a81) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TutorialFiles/EvilLair/Set/Materials/CupboardDoor.mat using Guid(43819d71bd67246f2ba64b9e3d9d6a81) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ef37409ab03d9d1c09c8ad1b7086ac8a') in 0.005975 seconds 
+  Import took 0.008124 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000221 seconds.
+  path: Assets/TutorialFiles/EvilLair/Set/Textures/InstructionManual.jpg
+  artifactKey: Guid(97f8203a9454b4cb39ee26225f9fc9dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TutorialFiles/EvilLair/Set/Textures/InstructionManual.jpg using Guid(97f8203a9454b4cb39ee26225f9fc9dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '36495ca11e5b6962231989ef06c8f0c5') in 0.006189 seconds 
+  Import took 0.008310 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000228 seconds.
+  path: Assets/TutorialFiles/EvilLair/Set/EvilLair_NavMesh.fbx
+  artifactKey: Guid(7e983025eed5e4ef295d49e2718c3ce2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TutorialFiles/EvilLair/Set/EvilLair_NavMesh.fbx using Guid(7e983025eed5e4ef295d49e2718c3ce2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '190de34b5c53ff663fb0f78d4b574f7c') in 0.010318 seconds 
+  Import took 0.012656 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000243 seconds.
+  path: Assets/TutorialFiles/EvilLair/Set/Materials/FireGuard.mat
+  artifactKey: Guid(439eef7327b5d4b6a86bfe66c35e1b78) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TutorialFiles/EvilLair/Set/Materials/FireGuard.mat using Guid(439eef7327b5d4b6a86bfe66c35e1b78) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '70379eb21f334a593272bb53ed402300') in 0.005800 seconds 
+  Import took 0.007964 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000240 seconds.
+  path: Assets/TutorialFiles/EvilLair/Set/Materials/Walls.mat
+  artifactKey: Guid(58ec3c421fef04b16b9b83d53b5304ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TutorialFiles/EvilLair/Set/Materials/Walls.mat using Guid(58ec3c421fef04b16b9b83d53b5304ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '52e6361682c4a08c929a52c49ee1c38d') in 0.011742 seconds 
+  Import took 0.014616 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000268 seconds.
+  path: Assets/TutorialFiles/EvilLair/Set/Materials/Laser3.mat
+  artifactKey: Guid(61d6c3b7d51df4d70b20638b6b1a1df9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TutorialFiles/EvilLair/Set/Materials/Laser3.mat using Guid(61d6c3b7d51df4d70b20638b6b1a1df9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd89c2b4d2e9509cd7187d454779c99f6') in 0.006534 seconds 
+  Import took 0.009284 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000383 seconds.
+  path: Assets/TutorialFiles/EvilLair/Set/Materials/CoffeeTable.mat
+  artifactKey: Guid(00c87da0f84d54f059906591b6fbae2c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TutorialFiles/EvilLair/Set/Materials/CoffeeTable.mat using Guid(00c87da0f84d54f059906591b6fbae2c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '26433d1eeaf720277789f6ae8e66d476') in 0.008265 seconds 
+  Import took 0.010763 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000208 seconds.
+  path: Assets/TutorialFiles/EvilLair/Set/LaserGun.fbx
+  artifactKey: Guid(4b77cc5531c6d4c42b235a59d1f190e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TutorialFiles/EvilLair/Set/LaserGun.fbx using Guid(4b77cc5531c6d4c42b235a59d1f190e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cca14adc63795f8adc82497940fa50fc') in 0.040633 seconds 
+  Import took 0.043353 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000290 seconds.
+  path: Assets/TutorialFiles/EvilLair/Set/InstructionManual.fbx
+  artifactKey: Guid(c5b29a3776cd74926b6fb8277ce8f6ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TutorialFiles/EvilLair/Set/InstructionManual.fbx using Guid(c5b29a3776cd74926b6fb8277ce8f6ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6028c6f783821a2fa6fbe6dc4154bc8e') in 0.011211 seconds 
+  Import took 0.013679 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000266 seconds.
+  path: Assets/TutorialFiles/EvilLair/Set/Textures/Tiles.jpg
+  artifactKey: Guid(86147d1e31faa457d8f8db305701f994) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TutorialFiles/EvilLair/Set/Textures/Tiles.jpg using Guid(86147d1e31faa457d8f8db305701f994) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e982f9c5b98cda499c6ae6f2c158106a') in 0.004772 seconds 
+  Import took 0.006959 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000259 seconds.
+  path: Assets/TutorialFiles/EvilLair/Set/Materials/Floor2.mat
+  artifactKey: Guid(a434a9065f83c4b76970cd773ef5bd66) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TutorialFiles/EvilLair/Set/Materials/Floor2.mat using Guid(a434a9065f83c4b76970cd773ef5bd66) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9e7df9cb75b71ee6109f780bea01fe8d') in 0.014643 seconds 
+  Import took 0.017651 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000185 seconds.
+  path: Assets/TutorialFiles/EvilLair/Set/Textures/BookIcon.png
+  artifactKey: Guid(eaf9d0fdef32b49a9aa9b6fadedd42e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TutorialFiles/EvilLair/Set/Textures/BookIcon.png using Guid(eaf9d0fdef32b49a9aa9b6fadedd42e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9551ac8b1e7559374615e80a9476d907') in 0.451773 seconds 
+  Import took 0.458225 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000245 seconds.
+  path: Assets/TutorialFiles/EvilLair/Set/Materials/Laser1.mat
+  artifactKey: Guid(9bd3e16718bfd47b7a10482f355061e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TutorialFiles/EvilLair/Set/Materials/Laser1.mat using Guid(9bd3e16718bfd47b7a10482f355061e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cf5f8f0edf7571dea53c59065ae468f3') in 0.006501 seconds 
+  Import took 0.008716 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000215 seconds.
+  path: Assets/TutorialFiles/EvilLair/Brain/EL_Brain.fbx
+  artifactKey: Guid(23c0661795d7846bab60f3b82a5c5faf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TutorialFiles/EvilLair/Brain/EL_Brain.fbx using Guid(23c0661795d7846bab60f3b82a5c5faf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ea1651bd7fd3c8e703911bc19ab9ec33') in 0.087288 seconds 
+  Import took 0.090602 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000257 seconds.
+  path: Assets/TutorialFiles/EvilLair/Set/Textures/Tiles-normal.jpg
+  artifactKey: Guid(6b823dc37b94d4a2399936bcc1a1fab2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TutorialFiles/EvilLair/Set/Textures/Tiles-normal.jpg using Guid(6b823dc37b94d4a2399936bcc1a1fab2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '08b6d843d05748437ea518cd1a814a36') in 0.039173 seconds 
+  Import took 0.041374 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000246 seconds.
+  path: Assets/TutorialFiles/EvilLair/Set/Materials/Floor.mat
+  artifactKey: Guid(6a531c6ddd7534c26abec7195bb1018d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TutorialFiles/EvilLair/Set/Materials/Floor.mat using Guid(6a531c6ddd7534c26abec7195bb1018d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '83d56fc9b028e10bcfedda19b2704105') in 0.007392 seconds 
+  Import took 0.009601 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000226 seconds.
+  path: Assets/TutorialFiles/EvilLair/Set/Materials/ChairCushion.mat
+  artifactKey: Guid(1027f40b6641f45a5967355a8f5bb5f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TutorialFiles/EvilLair/Set/Materials/ChairCushion.mat using Guid(1027f40b6641f45a5967355a8f5bb5f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ef1cffbdbd32b18802445d0682c21d5b') in 0.006948 seconds 
+  Import took 0.009129 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000397 seconds.
+  path: Assets/TutorialFiles/EvilLair/Set/Materials/Metal.mat
+  artifactKey: Guid(d69483a686ae3477ab182a5de38d3983) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TutorialFiles/EvilLair/Set/Materials/Metal.mat using Guid(d69483a686ae3477ab182a5de38d3983) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cf7140f3914a82e831e38f9e67a541d6') in 0.006813 seconds 
+  Import took 0.009062 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000249 seconds.
+  path: Assets/TutorialFiles/EvilLair/Set/Materials/SofaFrame.mat
+  artifactKey: Guid(148d966b5675f43159b4984dc8699c33) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TutorialFiles/EvilLair/Set/Materials/SofaFrame.mat using Guid(148d966b5675f43159b4984dc8699c33) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1313fa7880a89a1f2b4c72e364c69c8f') in 0.007165 seconds 
+  Import took 0.009478 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000347 seconds.
+  path: Assets/TutorialFiles/EvilLair/Set/Textures/Wood-normal.jpg
+  artifactKey: Guid(69a3ae16b4e054bc09d5bfceb6183101) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TutorialFiles/EvilLair/Set/Textures/Wood-normal.jpg using Guid(69a3ae16b4e054bc09d5bfceb6183101) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ac28905925d8cbe16fb2d2c131f85b97') in 0.006847 seconds 
+  Import took 0.009120 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000244 seconds.
+  path: Assets/TutorialFiles/EvilLair/Set/Lift.fbx
+  artifactKey: Guid(7aed8374a8f874cebb4149e9d3a7c4ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TutorialFiles/EvilLair/Set/Lift.fbx using Guid(7aed8374a8f874cebb4149e9d3a7c4ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9effa77c3fa71be53113c338dacde851') in 0.023524 seconds 
+  Import took 0.025915 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000244 seconds.
+  path: Assets/TutorialFiles/EvilLair/Set/Materials/ChairFrame.mat
+  artifactKey: Guid(89332257d62184210ad446ff5a4ec601) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TutorialFiles/EvilLair/Set/Materials/ChairFrame.mat using Guid(89332257d62184210ad446ff5a4ec601) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2287526a26168870209212883d267d21') in 0.006904 seconds 
+  Import took 0.009220 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000268 seconds.
+  path: Assets/TutorialFiles/EvilLair/Set/Materials/Bin.mat
+  artifactKey: Guid(7531f2a0ea277441b861c0926149b3be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TutorialFiles/EvilLair/Set/Materials/Bin.mat using Guid(7531f2a0ea277441b861c0926149b3be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '75aa7d2f4d49cea278e860c967edd69d') in 0.007761 seconds 
+  Import took 0.010019 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000244 seconds.
+  path: Assets/TutorialFiles/EvilLair/Set/Materials/Sofa.mat
+  artifactKey: Guid(0e71bb59d4ad848acae93802895615e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TutorialFiles/EvilLair/Set/Materials/Sofa.mat using Guid(0e71bb59d4ad848acae93802895615e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c7a37cd0b52cc2ac4c52e7d9c7d43180') in 0.007894 seconds 
+  Import took 0.010295 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000229 seconds.
+  path: Assets/TutorialFiles/EvilLair/Set/Materials/LiftLight.mat
+  artifactKey: Guid(4474099d0977c482d9f109a98a327d5d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TutorialFiles/EvilLair/Set/Materials/LiftLight.mat using Guid(4474099d0977c482d9f109a98a327d5d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '38935c6f368e8ad69fd07453e47fc3b0') in 0.006867 seconds 
+  Import took 0.009053 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000239 seconds.
+  path: Assets/TutorialFiles/EvilLair/Set/Materials/OuterWall.mat
+  artifactKey: Guid(45392102c747043848d8799035eea314) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TutorialFiles/EvilLair/Set/Materials/OuterWall.mat using Guid(45392102c747043848d8799035eea314) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '33795c76cb26226d82323acf7ecb9145') in 0.013820 seconds 
+  Import took 0.016100 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000275 seconds.
+  path: Assets/TutorialFiles/EvilLair/Set/Materials/LiftWalls.mat
+  artifactKey: Guid(f8fcf431787b945989132bb81d740596) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TutorialFiles/EvilLair/Set/Materials/LiftWalls.mat using Guid(f8fcf431787b945989132bb81d740596) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9c055e69aba4f6061a93d10774e8ba79') in 0.008289 seconds 
+  Import took 0.010761 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000266 seconds.
+  path: Assets/TutorialFiles/EvilLair/Set/Materials/WindowFrame.mat
+  artifactKey: Guid(8358a5e8ef33f4c47a767e29c6de1ba2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TutorialFiles/EvilLair/Set/Materials/WindowFrame.mat using Guid(8358a5e8ef33f4c47a767e29c6de1ba2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3fadc01e7f9f31bd4c9302c7e7989d36') in 0.007658 seconds 
+  Import took 0.010164 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000284 seconds.
+  path: Assets/TutorialFiles/EvilLair/Set/Textures/Camouflage0013_S.jpg
+  artifactKey: Guid(e4c542c3545fa490dba881a756fdec35) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TutorialFiles/EvilLair/Set/Textures/Camouflage0013_S.jpg using Guid(e4c542c3545fa490dba881a756fdec35) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4ef87d109ad93bfbd98d389fd3ac0f99') in 0.005714 seconds 
+  Import took 0.007819 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000274 seconds.
+  path: Assets/TutorialFiles/EvilLair/Set/Materials/LiftDoors.mat
+  artifactKey: Guid(1356f26ec9bf34e54a77e2747a3a4be0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TutorialFiles/EvilLair/Set/Materials/LiftDoors.mat using Guid(1356f26ec9bf34e54a77e2747a3a4be0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0d812fd965e30d057562018931661e0b') in 0.006945 seconds 
+  Import took 0.009173 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000235 seconds.
+  path: Assets/TutorialFiles/EvilLair/Set/Materials/Cables.mat
+  artifactKey: Guid(b54b46fdd7b364b16a1bc51ef1485965) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TutorialFiles/EvilLair/Set/Materials/Cables.mat using Guid(b54b46fdd7b364b16a1bc51ef1485965) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5556a5b879c7df2cffea92dba5b45788') in 0.006718 seconds 
+  Import took 0.008888 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000261 seconds.
+  path: Assets/TutorialFiles/EvilLair/Set/Materials/WoodFloor2.mat
+  artifactKey: Guid(c1be09e009e7547589766667f8cf1df4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TutorialFiles/EvilLair/Set/Materials/WoodFloor2.mat using Guid(c1be09e009e7547589766667f8cf1df4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4750d8715127f76ab29dac16f742733e') in 0.009214 seconds 
+  Import took 0.011727 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000300 seconds.
+  path: Assets/TutorialFiles/EvilLair/Set/Materials/WoodFLoor.mat
+  artifactKey: Guid(9d23433da5f4f4260bbc43b21b105904) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TutorialFiles/EvilLair/Set/Materials/WoodFLoor.mat using Guid(9d23433da5f4f4260bbc43b21b105904) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '948b12efe965f479d623535f15d728cf') in 0.007974 seconds 
+  Import took 0.010419 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000309 seconds.
+  path: Assets/TutorialFiles/EvilLair/Set/Materials/Cushion.mat
+  artifactKey: Guid(51dc2274eb57c4303ac73beb99f142b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TutorialFiles/EvilLair/Set/Materials/Cushion.mat using Guid(51dc2274eb57c4303ac73beb99f142b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ab13d320eb76b383ea304d74c75b7cd9') in 0.007272 seconds 
+  Import took 0.009714 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 83.309659 seconds.
+  path: Assets/TutorialFiles/EvilLair/Set/LaserGun.fbx
+  artifactKey: Guid(4b77cc5531c6d4c42b235a59d1f190e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TutorialFiles/EvilLair/Set/LaserGun.fbx using Guid(4b77cc5531c6d4c42b235a59d1f190e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '763881d367e25e0619c69677fa4e0253') in 0.067619 seconds 
+  Import took 0.077168 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 43.127257 seconds.
+  path: Assets/TutorialFiles/EvilLair/TinPot/EL_TinPot.fbx
+  artifactKey: Guid(c58c091ad40c249c38efc31695c1b8d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TutorialFiles/EvilLair/TinPot/EL_TinPot.fbx using Guid(c58c091ad40c249c38efc31695c1b8d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '822d9b55e5da12bbe941f5d49475ffdb') in 0.043759 seconds 
+  Import took 0.047164 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 550.961166 seconds.
+  path: Assets/AdventureCreator/Graphics/Textures/black.png
+  artifactKey: Guid(2de7d16b4ac4b402182d4f2ca40e0b2d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AdventureCreator/Graphics/Textures/black.png using Guid(2de7d16b4ac4b402182d4f2ca40e0b2d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '442c6dcd460f0f938b6e4f05efe9c85b') in 0.022764 seconds 
+  Import took 0.036082 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 344.165419 seconds.
+  path: Assets/AdventureCreator/Demo/Resources/Tin Pot.prefab
+  artifactKey: Guid(0f5b84e91ea55416889c97bf7e999a0c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AdventureCreator/Demo/Resources/Tin Pot.prefab using Guid(0f5b84e91ea55416889c97bf7e999a0c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '24682756ce3f78afff4f67bbc94c147e') in 0.627406 seconds 
+  Import took 0.647630 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 46.563041 seconds.
+  path: Assets/AdventureCreator/Demo/Models/Chars/Robot/Textures/Robot-portrait.png
+  artifactKey: Guid(e6319346a4a7b414ba75ae426e49914d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AdventureCreator/Demo/Models/Chars/Robot/Textures/Robot-portrait.png using Guid(e6319346a4a7b414ba75ae426e49914d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0035603a8a75b4a15db66ae242a89fbb') in 0.018030 seconds 
+  Import took 0.028721 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002575 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 0.39 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+CreateSerializedAsset is not supported while importing out-of-process
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at /Users/bokken/buildslave/unity/build/Runtime/Export/Scripting/StackTrace.cs:37)
+AC.ACEditorPrefs:GetOrCreateSettings () (at /Users/paulkohler/Repos/ACSandbox/AdventurePlayground/Assets/AdventureCreator/Scripts/Managers/ACEditorPrefs.cs:96)
+AC.ACEditorPrefs:get_DisableInstaller () (at /Users/paulkohler/Repos/ACSandbox/AdventurePlayground/Assets/AdventureCreator/Scripts/Managers/ACEditorPrefs.cs:334)
+AC.ACInstaller:IsInstalled () (at /Users/paulkohler/Repos/ACSandbox/AdventurePlayground/Assets/AdventureCreator/Scripts/Managers/Editor/ACInstaller.cs:37)
+AC.ACInstaller:CheckInstall () (at /Users/paulkohler/Repos/ACSandbox/AdventurePlayground/Assets/AdventureCreator/Scripts/Managers/Editor/ACInstaller.cs:52)
+AC.ACInstaller:.cctor () (at /Users/paulkohler/Repos/ACSandbox/AdventurePlayground/Assets/AdventureCreator/Scripts/Managers/Editor/ACInstaller.cs:31)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[]) (at /Users/bokken/buildslave/unity/build/Editor/Mono/EditorAssemblies.cs:134)
+
+[/Users/paulkohler/Repos/ACSandbox/AdventurePlayground/Assets/AdventureCreator/Scripts/Managers/ACEditorPrefs.cs line 96]
+
+UnityEngine.UnityException: Creating asset at path Assets/AdventureCreator/Editor/ACEditorPrefs.asset failed.
+  at (wrapper managed-to-native) UnityEditor.AssetDatabase.CreateAsset(UnityEngine.Object,string)
+  at AC.ACEditorPrefs.GetOrCreateSettings () [0x00115] in /Users/paulkohler/Repos/ACSandbox/AdventurePlayground/Assets/AdventureCreator/Scripts/Managers/ACEditorPrefs.cs:96 
+  at AC.ACEditorPrefs.get_DisableInstaller () [0x00000] in /Users/paulkohler/Repos/ACSandbox/AdventurePlayground/Assets/AdventureCreator/Scripts/Managers/ACEditorPrefs.cs:334 
+  at AC.ACInstaller.IsInstalled () [0x00000] in /Users/paulkohler/Repos/ACSandbox/AdventurePlayground/Assets/AdventureCreator/Scripts/Managers/Editor/ACInstaller.cs:37 
+  at AC.ACInstaller.CheckInstall () [0x00000] in /Users/paulkohler/Repos/ACSandbox/AdventurePlayground/Assets/AdventureCreator/Scripts/Managers/Editor/ACInstaller.cs:52 
+  at AC.ACInstaller..cctor () [0x00000] in /Users/paulkohler/Repos/ACSandbox/AdventurePlayground/Assets/AdventureCreator/Scripts/Managers/Editor/ACInstaller.cs:31 
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at /Users/bokken/buildslave/unity/build/Runtime/Export/Scripting/StackTrace.cs:37)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[]) (at /Users/bokken/buildslave/unity/build/Editor/Mono/EditorAssemblies.cs:138)
+
+(Filename: /Users/bokken/buildslave/unity/build/Editor/Mono/EditorAssemblies.cs Line: 138)
+
+Mono: successfully reloaded assembly
+- Completed reload, in  2.413 seconds
+Domain Reload Profiling:
+	ReloadAssembly (2414ms)
+		BeginReloadAssembly (286ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (32ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (105ms)
+		EndReloadAssembly (2031ms)
+			LoadAssemblies (237ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (332ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (55ms)
+			SetupLoadedEditorAssemblies (1153ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (14ms)
+				SetLoadedEditorAssemblies (2ms)
+				RefreshPlugins (0ms)
+				BeforeProcessingInitializeOnLoad (272ms)
+				ProcessInitializeOnLoadAttributes (835ms)
+				ProcessInitializeOnLoadMethodAttributes (28ms)
+				AfterProcessingInitializeOnLoad (1ms)
+				EditorAssembliesLoaded (1ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (32ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.39 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2032 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 237.5 MB.
+System memory in use after: 237.6 MB.
+
+Unloading 13 unused Assets to reduce memory usage. Loaded Objects now: 2574.
+Total: 1.963291 ms (FindLiveObjects: 0.091333 ms CreateObjectMapping: 0.039250 ms MarkObjects: 1.802083 ms  DeleteObjects: 0.029875 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003187 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 0.39 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+CreateSerializedAsset is not supported while importing out-of-process
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at /Users/bokken/buildslave/unity/build/Runtime/Export/Scripting/StackTrace.cs:37)
+AC.ACEditorPrefs:GetOrCreateSettings () (at /Users/paulkohler/Repos/ACSandbox/AdventurePlayground/Assets/AdventureCreator/Scripts/Managers/ACEditorPrefs.cs:96)
+AC.ACEditorPrefs:get_DisableInstaller () (at /Users/paulkohler/Repos/ACSandbox/AdventurePlayground/Assets/AdventureCreator/Scripts/Managers/ACEditorPrefs.cs:334)
+AC.ACInstaller:IsInstalled () (at /Users/paulkohler/Repos/ACSandbox/AdventurePlayground/Assets/AdventureCreator/Scripts/Managers/Editor/ACInstaller.cs:37)
+AC.ACInstaller:CheckInstall () (at /Users/paulkohler/Repos/ACSandbox/AdventurePlayground/Assets/AdventureCreator/Scripts/Managers/Editor/ACInstaller.cs:52)
+AC.ACInstaller:.cctor () (at /Users/paulkohler/Repos/ACSandbox/AdventurePlayground/Assets/AdventureCreator/Scripts/Managers/Editor/ACInstaller.cs:31)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[]) (at /Users/bokken/buildslave/unity/build/Editor/Mono/EditorAssemblies.cs:134)
+
+[/Users/paulkohler/Repos/ACSandbox/AdventurePlayground/Assets/AdventureCreator/Scripts/Managers/ACEditorPrefs.cs line 96]
+
+UnityEngine.UnityException: Creating asset at path Assets/AdventureCreator/Editor/ACEditorPrefs.asset failed.
+  at (wrapper managed-to-native) UnityEditor.AssetDatabase.CreateAsset(UnityEngine.Object,string)
+  at AC.ACEditorPrefs.GetOrCreateSettings () [0x00115] in /Users/paulkohler/Repos/ACSandbox/AdventurePlayground/Assets/AdventureCreator/Scripts/Managers/ACEditorPrefs.cs:96 
+  at AC.ACEditorPrefs.get_DisableInstaller () [0x00000] in /Users/paulkohler/Repos/ACSandbox/AdventurePlayground/Assets/AdventureCreator/Scripts/Managers/ACEditorPrefs.cs:334 
+  at AC.ACInstaller.IsInstalled () [0x00000] in /Users/paulkohler/Repos/ACSandbox/AdventurePlayground/Assets/AdventureCreator/Scripts/Managers/Editor/ACInstaller.cs:37 
+  at AC.ACInstaller.CheckInstall () [0x00000] in /Users/paulkohler/Repos/ACSandbox/AdventurePlayground/Assets/AdventureCreator/Scripts/Managers/Editor/ACInstaller.cs:52 
+  at AC.ACInstaller..cctor () [0x00000] in /Users/paulkohler/Repos/ACSandbox/AdventurePlayground/Assets/AdventureCreator/Scripts/Managers/Editor/ACInstaller.cs:31 
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at /Users/bokken/buildslave/unity/build/Runtime/Export/Scripting/StackTrace.cs:37)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[]) (at /Users/bokken/buildslave/unity/build/Editor/Mono/EditorAssemblies.cs:138)
+
+(Filename: /Users/bokken/buildslave/unity/build/Editor/Mono/EditorAssemblies.cs Line: 138)
+
+Mono: successfully reloaded assembly
+- Completed reload, in  2.351 seconds
+Domain Reload Profiling:
+	ReloadAssembly (2352ms)
+		BeginReloadAssembly (277ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (34ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (100ms)
+		EndReloadAssembly (1979ms)
+			LoadAssemblies (226ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (352ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (54ms)
+			SetupLoadedEditorAssemblies (1092ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (16ms)
+				SetLoadedEditorAssemblies (2ms)
+				RefreshPlugins (0ms)
+				BeforeProcessingInitializeOnLoad (248ms)
+				ProcessInitializeOnLoadAttributes (796ms)
+				ProcessInitializeOnLoadMethodAttributes (29ms)
+				AfterProcessingInitializeOnLoad (1ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (32ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.39 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2032 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 237.7 MB.
+System memory in use after: 237.9 MB.
+
+Unloading 12 unused Assets to reduce memory usage. Loaded Objects now: 2577.
+Total: 1.944750 ms (FindLiveObjects: 0.086833 ms CreateObjectMapping: 0.041125 ms MarkObjects: 1.793042 ms  DeleteObjects: 0.023000 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 283.330088 seconds.
+  path: Assets/TutorialFiles/EvilLair/Set/LaserGun.fbx
+  artifactKey: Guid(4b77cc5531c6d4c42b235a59d1f190e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TutorialFiles/EvilLair/Set/LaserGun.fbx using Guid(4b77cc5531c6d4c42b235a59d1f190e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '839f47d65718377e3e9c8bea3055792f') in 0.306775 seconds 
+  Import took 0.326530 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002546 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 0.40 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+CreateSerializedAsset is not supported while importing out-of-process
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at /Users/bokken/buildslave/unity/build/Runtime/Export/Scripting/StackTrace.cs:37)
+AC.ACEditorPrefs:GetOrCreateSettings () (at /Users/paulkohler/Repos/ACSandbox/AdventurePlayground/Assets/AdventureCreator/Scripts/Managers/ACEditorPrefs.cs:96)
+AC.ACEditorPrefs:get_DisableInstaller () (at /Users/paulkohler/Repos/ACSandbox/AdventurePlayground/Assets/AdventureCreator/Scripts/Managers/ACEditorPrefs.cs:334)
+AC.ACInstaller:IsInstalled () (at /Users/paulkohler/Repos/ACSandbox/AdventurePlayground/Assets/AdventureCreator/Scripts/Managers/Editor/ACInstaller.cs:37)
+AC.ACInstaller:CheckInstall () (at /Users/paulkohler/Repos/ACSandbox/AdventurePlayground/Assets/AdventureCreator/Scripts/Managers/Editor/ACInstaller.cs:52)
+AC.ACInstaller:.cctor () (at /Users/paulkohler/Repos/ACSandbox/AdventurePlayground/Assets/AdventureCreator/Scripts/Managers/Editor/ACInstaller.cs:31)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[]) (at /Users/bokken/buildslave/unity/build/Editor/Mono/EditorAssemblies.cs:134)
+
+[/Users/paulkohler/Repos/ACSandbox/AdventurePlayground/Assets/AdventureCreator/Scripts/Managers/ACEditorPrefs.cs line 96]
+
+UnityEngine.UnityException: Creating asset at path Assets/AdventureCreator/Editor/ACEditorPrefs.asset failed.
+  at (wrapper managed-to-native) UnityEditor.AssetDatabase.CreateAsset(UnityEngine.Object,string)
+  at AC.ACEditorPrefs.GetOrCreateSettings () [0x00115] in /Users/paulkohler/Repos/ACSandbox/AdventurePlayground/Assets/AdventureCreator/Scripts/Managers/ACEditorPrefs.cs:96 
+  at AC.ACEditorPrefs.get_DisableInstaller () [0x00000] in /Users/paulkohler/Repos/ACSandbox/AdventurePlayground/Assets/AdventureCreator/Scripts/Managers/ACEditorPrefs.cs:334 
+  at AC.ACInstaller.IsInstalled () [0x00000] in /Users/paulkohler/Repos/ACSandbox/AdventurePlayground/Assets/AdventureCreator/Scripts/Managers/Editor/ACInstaller.cs:37 
+  at AC.ACInstaller.CheckInstall () [0x00000] in /Users/paulkohler/Repos/ACSandbox/AdventurePlayground/Assets/AdventureCreator/Scripts/Managers/Editor/ACInstaller.cs:52 
+  at AC.ACInstaller..cctor () [0x00000] in /Users/paulkohler/Repos/ACSandbox/AdventurePlayground/Assets/AdventureCreator/Scripts/Managers/Editor/ACInstaller.cs:31 
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at /Users/bokken/buildslave/unity/build/Runtime/Export/Scripting/StackTrace.cs:37)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[]) (at /Users/bokken/buildslave/unity/build/Editor/Mono/EditorAssemblies.cs:138)
+
+(Filename: /Users/bokken/buildslave/unity/build/Editor/Mono/EditorAssemblies.cs Line: 138)
+
+Mono: successfully reloaded assembly
+- Completed reload, in  2.459 seconds
+Domain Reload Profiling:
+	ReloadAssembly (2460ms)
+		BeginReloadAssembly (254ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (32ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (89ms)
+		EndReloadAssembly (2107ms)
+			LoadAssemblies (263ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (329ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (54ms)
+			SetupLoadedEditorAssemblies (1184ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (14ms)
+				SetLoadedEditorAssemblies (2ms)
+				RefreshPlugins (0ms)
+				BeforeProcessingInitializeOnLoad (249ms)
+				ProcessInitializeOnLoadAttributes (886ms)
+				ProcessInitializeOnLoadMethodAttributes (30ms)
+				AfterProcessingInitializeOnLoad (1ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (33ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.41 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2032 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 238.0 MB.
+System memory in use after: 238.1 MB.
+
+Unloading 12 unused Assets to reduce memory usage. Loaded Objects now: 2581.
+Total: 2.030292 ms (FindLiveObjects: 0.103500 ms CreateObjectMapping: 0.044584 ms MarkObjects: 1.850500 ms  DeleteObjects: 0.031042 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003065 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 0.63 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+CreateSerializedAsset is not supported while importing out-of-process
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at /Users/bokken/buildslave/unity/build/Runtime/Export/Scripting/StackTrace.cs:37)
+AC.ACEditorPrefs:GetOrCreateSettings () (at /Users/paulkohler/Repos/ACSandbox/AdventurePlayground/Assets/AdventureCreator/Scripts/Managers/ACEditorPrefs.cs:96)
+AC.ACEditorPrefs:get_DisableInstaller () (at /Users/paulkohler/Repos/ACSandbox/AdventurePlayground/Assets/AdventureCreator/Scripts/Managers/ACEditorPrefs.cs:334)
+AC.ACInstaller:IsInstalled () (at /Users/paulkohler/Repos/ACSandbox/AdventurePlayground/Assets/AdventureCreator/Scripts/Managers/Editor/ACInstaller.cs:37)
+AC.ACInstaller:CheckInstall () (at /Users/paulkohler/Repos/ACSandbox/AdventurePlayground/Assets/AdventureCreator/Scripts/Managers/Editor/ACInstaller.cs:52)
+AC.ACInstaller:.cctor () (at /Users/paulkohler/Repos/ACSandbox/AdventurePlayground/Assets/AdventureCreator/Scripts/Managers/Editor/ACInstaller.cs:31)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[]) (at /Users/bokken/buildslave/unity/build/Editor/Mono/EditorAssemblies.cs:134)
+
+[/Users/paulkohler/Repos/ACSandbox/AdventurePlayground/Assets/AdventureCreator/Scripts/Managers/ACEditorPrefs.cs line 96]
+
+UnityEngine.UnityException: Creating asset at path Assets/AdventureCreator/Editor/ACEditorPrefs.asset failed.
+  at (wrapper managed-to-native) UnityEditor.AssetDatabase.CreateAsset(UnityEngine.Object,string)
+  at AC.ACEditorPrefs.GetOrCreateSettings () [0x00115] in /Users/paulkohler/Repos/ACSandbox/AdventurePlayground/Assets/AdventureCreator/Scripts/Managers/ACEditorPrefs.cs:96 
+  at AC.ACEditorPrefs.get_DisableInstaller () [0x00000] in /Users/paulkohler/Repos/ACSandbox/AdventurePlayground/Assets/AdventureCreator/Scripts/Managers/ACEditorPrefs.cs:334 
+  at AC.ACInstaller.IsInstalled () [0x00000] in /Users/paulkohler/Repos/ACSandbox/AdventurePlayground/Assets/AdventureCreator/Scripts/Managers/Editor/ACInstaller.cs:37 
+  at AC.ACInstaller.CheckInstall () [0x00000] in /Users/paulkohler/Repos/ACSandbox/AdventurePlayground/Assets/AdventureCreator/Scripts/Managers/Editor/ACInstaller.cs:52 
+  at AC.ACInstaller..cctor () [0x00000] in /Users/paulkohler/Repos/ACSandbox/AdventurePlayground/Assets/AdventureCreator/Scripts/Managers/Editor/ACInstaller.cs:31 
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at /Users/bokken/buildslave/unity/build/Runtime/Export/Scripting/StackTrace.cs:37)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[]) (at /Users/bokken/buildslave/unity/build/Editor/Mono/EditorAssemblies.cs:138)
+
+(Filename: /Users/bokken/buildslave/unity/build/Editor/Mono/EditorAssemblies.cs Line: 138)
+
+Mono: successfully reloaded assembly
+- Completed reload, in  2.444 seconds
+Domain Reload Profiling:
+	ReloadAssembly (2445ms)
+		BeginReloadAssembly (313ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (38ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (87ms)
+		EndReloadAssembly (2034ms)
+			LoadAssemblies (273ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (352ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (54ms)
+			SetupLoadedEditorAssemblies (1132ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (14ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (305ms)
+				ProcessInitializeOnLoadAttributes (782ms)
+				ProcessInitializeOnLoadMethodAttributes (27ms)
+				AfterProcessingInitializeOnLoad (1ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (32ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.41 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2032 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 238.2 MB.
+System memory in use after: 238.3 MB.
+
+Unloading 12 unused Assets to reduce memory usage. Loaded Objects now: 2584.
+Total: 1.977916 ms (FindLiveObjects: 0.087542 ms CreateObjectMapping: 0.045875 ms MarkObjects: 1.812000 ms  DeleteObjects: 0.031917 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
