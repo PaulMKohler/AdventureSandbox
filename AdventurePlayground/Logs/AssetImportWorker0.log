@@ -951,3 +951,715 @@ AssetImportParameters requested are different than current active one (requested
   custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003187 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 0.39 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+CreateSerializedAsset is not supported while importing out-of-process
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at /Users/bokken/buildslave/unity/build/Runtime/Export/Scripting/StackTrace.cs:37)
+AC.ACEditorPrefs:GetOrCreateSettings () (at /Users/paulkohler/Repos/ACSandbox/AdventurePlayground/Assets/AdventureCreator/Scripts/Managers/ACEditorPrefs.cs:96)
+AC.ACEditorPrefs:get_DisableInstaller () (at /Users/paulkohler/Repos/ACSandbox/AdventurePlayground/Assets/AdventureCreator/Scripts/Managers/ACEditorPrefs.cs:334)
+AC.ACInstaller:IsInstalled () (at /Users/paulkohler/Repos/ACSandbox/AdventurePlayground/Assets/AdventureCreator/Scripts/Managers/Editor/ACInstaller.cs:37)
+AC.ACInstaller:CheckInstall () (at /Users/paulkohler/Repos/ACSandbox/AdventurePlayground/Assets/AdventureCreator/Scripts/Managers/Editor/ACInstaller.cs:52)
+AC.ACInstaller:.cctor () (at /Users/paulkohler/Repos/ACSandbox/AdventurePlayground/Assets/AdventureCreator/Scripts/Managers/Editor/ACInstaller.cs:31)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[]) (at /Users/bokken/buildslave/unity/build/Editor/Mono/EditorAssemblies.cs:134)
+
+[/Users/paulkohler/Repos/ACSandbox/AdventurePlayground/Assets/AdventureCreator/Scripts/Managers/ACEditorPrefs.cs line 96]
+
+UnityEngine.UnityException: Creating asset at path Assets/AdventureCreator/Editor/ACEditorPrefs.asset failed.
+  at (wrapper managed-to-native) UnityEditor.AssetDatabase.CreateAsset(UnityEngine.Object,string)
+  at AC.ACEditorPrefs.GetOrCreateSettings () [0x00115] in /Users/paulkohler/Repos/ACSandbox/AdventurePlayground/Assets/AdventureCreator/Scripts/Managers/ACEditorPrefs.cs:96 
+  at AC.ACEditorPrefs.get_DisableInstaller () [0x00000] in /Users/paulkohler/Repos/ACSandbox/AdventurePlayground/Assets/AdventureCreator/Scripts/Managers/ACEditorPrefs.cs:334 
+  at AC.ACInstaller.IsInstalled () [0x00000] in /Users/paulkohler/Repos/ACSandbox/AdventurePlayground/Assets/AdventureCreator/Scripts/Managers/Editor/ACInstaller.cs:37 
+  at AC.ACInstaller.CheckInstall () [0x00000] in /Users/paulkohler/Repos/ACSandbox/AdventurePlayground/Assets/AdventureCreator/Scripts/Managers/Editor/ACInstaller.cs:52 
+  at AC.ACInstaller..cctor () [0x00000] in /Users/paulkohler/Repos/ACSandbox/AdventurePlayground/Assets/AdventureCreator/Scripts/Managers/Editor/ACInstaller.cs:31 
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at /Users/bokken/buildslave/unity/build/Runtime/Export/Scripting/StackTrace.cs:37)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[]) (at /Users/bokken/buildslave/unity/build/Editor/Mono/EditorAssemblies.cs:138)
+
+(Filename: /Users/bokken/buildslave/unity/build/Editor/Mono/EditorAssemblies.cs Line: 138)
+
+Mono: successfully reloaded assembly
+- Completed reload, in  2.351 seconds
+Domain Reload Profiling:
+	ReloadAssembly (2353ms)
+		BeginReloadAssembly (264ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (38ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (90ms)
+		EndReloadAssembly (1986ms)
+			LoadAssemblies (226ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (337ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (52ms)
+			SetupLoadedEditorAssemblies (1099ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (14ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (0ms)
+				BeforeProcessingInitializeOnLoad (249ms)
+				ProcessInitializeOnLoadAttributes (799ms)
+				ProcessInitializeOnLoadMethodAttributes (33ms)
+				AfterProcessingInitializeOnLoad (1ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (34ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.40 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2032 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 238.7 MB.
+System memory in use after: 238.8 MB.
+
+Unloading 12 unused Assets to reduce memory usage. Loaded Objects now: 2587.
+Total: 2.024208 ms (FindLiveObjects: 0.110125 ms CreateObjectMapping: 0.045375 ms MarkObjects: 1.837875 ms  DeleteObjects: 0.030000 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003217 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 0.40 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+CreateSerializedAsset is not supported while importing out-of-process
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at /Users/bokken/buildslave/unity/build/Runtime/Export/Scripting/StackTrace.cs:37)
+AC.ACEditorPrefs:GetOrCreateSettings () (at /Users/paulkohler/Repos/ACSandbox/AdventurePlayground/Assets/AdventureCreator/Scripts/Managers/ACEditorPrefs.cs:96)
+AC.ACEditorPrefs:get_DisableInstaller () (at /Users/paulkohler/Repos/ACSandbox/AdventurePlayground/Assets/AdventureCreator/Scripts/Managers/ACEditorPrefs.cs:334)
+AC.ACInstaller:IsInstalled () (at /Users/paulkohler/Repos/ACSandbox/AdventurePlayground/Assets/AdventureCreator/Scripts/Managers/Editor/ACInstaller.cs:37)
+AC.ACInstaller:CheckInstall () (at /Users/paulkohler/Repos/ACSandbox/AdventurePlayground/Assets/AdventureCreator/Scripts/Managers/Editor/ACInstaller.cs:52)
+AC.ACInstaller:.cctor () (at /Users/paulkohler/Repos/ACSandbox/AdventurePlayground/Assets/AdventureCreator/Scripts/Managers/Editor/ACInstaller.cs:31)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[]) (at /Users/bokken/buildslave/unity/build/Editor/Mono/EditorAssemblies.cs:134)
+
+[/Users/paulkohler/Repos/ACSandbox/AdventurePlayground/Assets/AdventureCreator/Scripts/Managers/ACEditorPrefs.cs line 96]
+
+UnityEngine.UnityException: Creating asset at path Assets/AdventureCreator/Editor/ACEditorPrefs.asset failed.
+  at (wrapper managed-to-native) UnityEditor.AssetDatabase.CreateAsset(UnityEngine.Object,string)
+  at AC.ACEditorPrefs.GetOrCreateSettings () [0x00115] in /Users/paulkohler/Repos/ACSandbox/AdventurePlayground/Assets/AdventureCreator/Scripts/Managers/ACEditorPrefs.cs:96 
+  at AC.ACEditorPrefs.get_DisableInstaller () [0x00000] in /Users/paulkohler/Repos/ACSandbox/AdventurePlayground/Assets/AdventureCreator/Scripts/Managers/ACEditorPrefs.cs:334 
+  at AC.ACInstaller.IsInstalled () [0x00000] in /Users/paulkohler/Repos/ACSandbox/AdventurePlayground/Assets/AdventureCreator/Scripts/Managers/Editor/ACInstaller.cs:37 
+  at AC.ACInstaller.CheckInstall () [0x00000] in /Users/paulkohler/Repos/ACSandbox/AdventurePlayground/Assets/AdventureCreator/Scripts/Managers/Editor/ACInstaller.cs:52 
+  at AC.ACInstaller..cctor () [0x00000] in /Users/paulkohler/Repos/ACSandbox/AdventurePlayground/Assets/AdventureCreator/Scripts/Managers/Editor/ACInstaller.cs:31 
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at /Users/bokken/buildslave/unity/build/Runtime/Export/Scripting/StackTrace.cs:37)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[]) (at /Users/bokken/buildslave/unity/build/Editor/Mono/EditorAssemblies.cs:138)
+
+(Filename: /Users/bokken/buildslave/unity/build/Editor/Mono/EditorAssemblies.cs Line: 138)
+
+Mono: successfully reloaded assembly
+- Completed reload, in  2.394 seconds
+Domain Reload Profiling:
+	ReloadAssembly (2395ms)
+		BeginReloadAssembly (276ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (40ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (98ms)
+		EndReloadAssembly (2018ms)
+			LoadAssemblies (224ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (328ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (54ms)
+			SetupLoadedEditorAssemblies (1151ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (15ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (0ms)
+				BeforeProcessingInitializeOnLoad (263ms)
+				ProcessInitializeOnLoadAttributes (840ms)
+				ProcessInitializeOnLoadMethodAttributes (30ms)
+				AfterProcessingInitializeOnLoad (1ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (32ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.41 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2032 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 239.0 MB.
+System memory in use after: 239.1 MB.
+
+Unloading 12 unused Assets to reduce memory usage. Loaded Objects now: 2590.
+Total: 2.092041 ms (FindLiveObjects: 0.104958 ms CreateObjectMapping: 0.042375 ms MarkObjects: 1.917542 ms  DeleteObjects: 0.026292 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003281 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 0.43 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+CreateSerializedAsset is not supported while importing out-of-process
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at /Users/bokken/buildslave/unity/build/Runtime/Export/Scripting/StackTrace.cs:37)
+AC.ACEditorPrefs:GetOrCreateSettings () (at /Users/paulkohler/Repos/ACSandbox/AdventurePlayground/Assets/AdventureCreator/Scripts/Managers/ACEditorPrefs.cs:96)
+AC.ACEditorPrefs:get_DisableInstaller () (at /Users/paulkohler/Repos/ACSandbox/AdventurePlayground/Assets/AdventureCreator/Scripts/Managers/ACEditorPrefs.cs:334)
+AC.ACInstaller:IsInstalled () (at /Users/paulkohler/Repos/ACSandbox/AdventurePlayground/Assets/AdventureCreator/Scripts/Managers/Editor/ACInstaller.cs:37)
+AC.ACInstaller:CheckInstall () (at /Users/paulkohler/Repos/ACSandbox/AdventurePlayground/Assets/AdventureCreator/Scripts/Managers/Editor/ACInstaller.cs:52)
+AC.ACInstaller:.cctor () (at /Users/paulkohler/Repos/ACSandbox/AdventurePlayground/Assets/AdventureCreator/Scripts/Managers/Editor/ACInstaller.cs:31)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[]) (at /Users/bokken/buildslave/unity/build/Editor/Mono/EditorAssemblies.cs:134)
+
+[/Users/paulkohler/Repos/ACSandbox/AdventurePlayground/Assets/AdventureCreator/Scripts/Managers/ACEditorPrefs.cs line 96]
+
+UnityEngine.UnityException: Creating asset at path Assets/AdventureCreator/Editor/ACEditorPrefs.asset failed.
+  at (wrapper managed-to-native) UnityEditor.AssetDatabase.CreateAsset(UnityEngine.Object,string)
+  at AC.ACEditorPrefs.GetOrCreateSettings () [0x00115] in /Users/paulkohler/Repos/ACSandbox/AdventurePlayground/Assets/AdventureCreator/Scripts/Managers/ACEditorPrefs.cs:96 
+  at AC.ACEditorPrefs.get_DisableInstaller () [0x00000] in /Users/paulkohler/Repos/ACSandbox/AdventurePlayground/Assets/AdventureCreator/Scripts/Managers/ACEditorPrefs.cs:334 
+  at AC.ACInstaller.IsInstalled () [0x00000] in /Users/paulkohler/Repos/ACSandbox/AdventurePlayground/Assets/AdventureCreator/Scripts/Managers/Editor/ACInstaller.cs:37 
+  at AC.ACInstaller.CheckInstall () [0x00000] in /Users/paulkohler/Repos/ACSandbox/AdventurePlayground/Assets/AdventureCreator/Scripts/Managers/Editor/ACInstaller.cs:52 
+  at AC.ACInstaller..cctor () [0x00000] in /Users/paulkohler/Repos/ACSandbox/AdventurePlayground/Assets/AdventureCreator/Scripts/Managers/Editor/ACInstaller.cs:31 
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at /Users/bokken/buildslave/unity/build/Runtime/Export/Scripting/StackTrace.cs:37)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[]) (at /Users/bokken/buildslave/unity/build/Editor/Mono/EditorAssemblies.cs:138)
+
+(Filename: /Users/bokken/buildslave/unity/build/Editor/Mono/EditorAssemblies.cs Line: 138)
+
+Mono: successfully reloaded assembly
+- Completed reload, in  2.325 seconds
+Domain Reload Profiling:
+	ReloadAssembly (2341ms)
+		BeginReloadAssembly (289ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (37ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (97ms)
+		EndReloadAssembly (1947ms)
+			LoadAssemblies (218ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (326ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (53ms)
+			SetupLoadedEditorAssemblies (1098ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (15ms)
+				SetLoadedEditorAssemblies (2ms)
+				RefreshPlugins (0ms)
+				BeforeProcessingInitializeOnLoad (251ms)
+				ProcessInitializeOnLoadAttributes (796ms)
+				ProcessInitializeOnLoadMethodAttributes (32ms)
+				AfterProcessingInitializeOnLoad (1ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (32ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.39 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2032 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 239.1 MB.
+System memory in use after: 239.3 MB.
+
+Unloading 12 unused Assets to reduce memory usage. Loaded Objects now: 2593.
+Total: 1.997833 ms (FindLiveObjects: 0.093833 ms CreateObjectMapping: 0.041250 ms MarkObjects: 1.833833 ms  DeleteObjects: 0.028250 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002797 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 0.42 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+CreateSerializedAsset is not supported while importing out-of-process
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at /Users/bokken/buildslave/unity/build/Runtime/Export/Scripting/StackTrace.cs:37)
+AC.ACEditorPrefs:GetOrCreateSettings () (at /Users/paulkohler/Repos/ACSandbox/AdventurePlayground/Assets/AdventureCreator/Scripts/Managers/ACEditorPrefs.cs:96)
+AC.ACEditorPrefs:get_DisableInstaller () (at /Users/paulkohler/Repos/ACSandbox/AdventurePlayground/Assets/AdventureCreator/Scripts/Managers/ACEditorPrefs.cs:334)
+AC.ACInstaller:IsInstalled () (at /Users/paulkohler/Repos/ACSandbox/AdventurePlayground/Assets/AdventureCreator/Scripts/Managers/Editor/ACInstaller.cs:37)
+AC.ACInstaller:CheckInstall () (at /Users/paulkohler/Repos/ACSandbox/AdventurePlayground/Assets/AdventureCreator/Scripts/Managers/Editor/ACInstaller.cs:52)
+AC.ACInstaller:.cctor () (at /Users/paulkohler/Repos/ACSandbox/AdventurePlayground/Assets/AdventureCreator/Scripts/Managers/Editor/ACInstaller.cs:31)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[]) (at /Users/bokken/buildslave/unity/build/Editor/Mono/EditorAssemblies.cs:134)
+
+[/Users/paulkohler/Repos/ACSandbox/AdventurePlayground/Assets/AdventureCreator/Scripts/Managers/ACEditorPrefs.cs line 96]
+
+UnityEngine.UnityException: Creating asset at path Assets/AdventureCreator/Editor/ACEditorPrefs.asset failed.
+  at (wrapper managed-to-native) UnityEditor.AssetDatabase.CreateAsset(UnityEngine.Object,string)
+  at AC.ACEditorPrefs.GetOrCreateSettings () [0x00115] in /Users/paulkohler/Repos/ACSandbox/AdventurePlayground/Assets/AdventureCreator/Scripts/Managers/ACEditorPrefs.cs:96 
+  at AC.ACEditorPrefs.get_DisableInstaller () [0x00000] in /Users/paulkohler/Repos/ACSandbox/AdventurePlayground/Assets/AdventureCreator/Scripts/Managers/ACEditorPrefs.cs:334 
+  at AC.ACInstaller.IsInstalled () [0x00000] in /Users/paulkohler/Repos/ACSandbox/AdventurePlayground/Assets/AdventureCreator/Scripts/Managers/Editor/ACInstaller.cs:37 
+  at AC.ACInstaller.CheckInstall () [0x00000] in /Users/paulkohler/Repos/ACSandbox/AdventurePlayground/Assets/AdventureCreator/Scripts/Managers/Editor/ACInstaller.cs:52 
+  at AC.ACInstaller..cctor () [0x00000] in /Users/paulkohler/Repos/ACSandbox/AdventurePlayground/Assets/AdventureCreator/Scripts/Managers/Editor/ACInstaller.cs:31 
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at /Users/bokken/buildslave/unity/build/Runtime/Export/Scripting/StackTrace.cs:37)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[]) (at /Users/bokken/buildslave/unity/build/Editor/Mono/EditorAssemblies.cs:138)
+
+(Filename: /Users/bokken/buildslave/unity/build/Editor/Mono/EditorAssemblies.cs Line: 138)
+
+Mono: successfully reloaded assembly
+- Completed reload, in  2.389 seconds
+Domain Reload Profiling:
+	ReloadAssembly (2390ms)
+		BeginReloadAssembly (251ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (34ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (88ms)
+		EndReloadAssembly (2041ms)
+			LoadAssemblies (216ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (328ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (55ms)
+			SetupLoadedEditorAssemblies (1136ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (15ms)
+				SetLoadedEditorAssemblies (2ms)
+				RefreshPlugins (0ms)
+				BeforeProcessingInitializeOnLoad (259ms)
+				ProcessInitializeOnLoadAttributes (825ms)
+				ProcessInitializeOnLoadMethodAttributes (34ms)
+				AfterProcessingInitializeOnLoad (1ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (33ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.40 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2032 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 239.3 MB.
+System memory in use after: 239.4 MB.
+
+Unloading 12 unused Assets to reduce memory usage. Loaded Objects now: 2596.
+Total: 1.973583 ms (FindLiveObjects: 0.088792 ms CreateObjectMapping: 0.039583 ms MarkObjects: 1.817583 ms  DeleteObjects: 0.026791 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003270 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 0.41 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+CreateSerializedAsset is not supported while importing out-of-process
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at /Users/bokken/buildslave/unity/build/Runtime/Export/Scripting/StackTrace.cs:37)
+AC.ACEditorPrefs:GetOrCreateSettings () (at /Users/paulkohler/Repos/ACSandbox/AdventurePlayground/Assets/AdventureCreator/Scripts/Managers/ACEditorPrefs.cs:96)
+AC.ACEditorPrefs:get_DisableInstaller () (at /Users/paulkohler/Repos/ACSandbox/AdventurePlayground/Assets/AdventureCreator/Scripts/Managers/ACEditorPrefs.cs:334)
+AC.ACInstaller:IsInstalled () (at /Users/paulkohler/Repos/ACSandbox/AdventurePlayground/Assets/AdventureCreator/Scripts/Managers/Editor/ACInstaller.cs:37)
+AC.ACInstaller:CheckInstall () (at /Users/paulkohler/Repos/ACSandbox/AdventurePlayground/Assets/AdventureCreator/Scripts/Managers/Editor/ACInstaller.cs:52)
+AC.ACInstaller:.cctor () (at /Users/paulkohler/Repos/ACSandbox/AdventurePlayground/Assets/AdventureCreator/Scripts/Managers/Editor/ACInstaller.cs:31)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[]) (at /Users/bokken/buildslave/unity/build/Editor/Mono/EditorAssemblies.cs:134)
+
+[/Users/paulkohler/Repos/ACSandbox/AdventurePlayground/Assets/AdventureCreator/Scripts/Managers/ACEditorPrefs.cs line 96]
+
+UnityEngine.UnityException: Creating asset at path Assets/AdventureCreator/Editor/ACEditorPrefs.asset failed.
+  at (wrapper managed-to-native) UnityEditor.AssetDatabase.CreateAsset(UnityEngine.Object,string)
+  at AC.ACEditorPrefs.GetOrCreateSettings () [0x00115] in /Users/paulkohler/Repos/ACSandbox/AdventurePlayground/Assets/AdventureCreator/Scripts/Managers/ACEditorPrefs.cs:96 
+  at AC.ACEditorPrefs.get_DisableInstaller () [0x00000] in /Users/paulkohler/Repos/ACSandbox/AdventurePlayground/Assets/AdventureCreator/Scripts/Managers/ACEditorPrefs.cs:334 
+  at AC.ACInstaller.IsInstalled () [0x00000] in /Users/paulkohler/Repos/ACSandbox/AdventurePlayground/Assets/AdventureCreator/Scripts/Managers/Editor/ACInstaller.cs:37 
+  at AC.ACInstaller.CheckInstall () [0x00000] in /Users/paulkohler/Repos/ACSandbox/AdventurePlayground/Assets/AdventureCreator/Scripts/Managers/Editor/ACInstaller.cs:52 
+  at AC.ACInstaller..cctor () [0x00000] in /Users/paulkohler/Repos/ACSandbox/AdventurePlayground/Assets/AdventureCreator/Scripts/Managers/Editor/ACInstaller.cs:31 
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at /Users/bokken/buildslave/unity/build/Runtime/Export/Scripting/StackTrace.cs:37)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[]) (at /Users/bokken/buildslave/unity/build/Editor/Mono/EditorAssemblies.cs:138)
+
+(Filename: /Users/bokken/buildslave/unity/build/Editor/Mono/EditorAssemblies.cs Line: 138)
+
+Mono: successfully reloaded assembly
+- Completed reload, in  2.385 seconds
+Domain Reload Profiling:
+	ReloadAssembly (2387ms)
+		BeginReloadAssembly (268ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (40ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (93ms)
+		EndReloadAssembly (2018ms)
+			LoadAssemblies (222ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (347ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (53ms)
+			SetupLoadedEditorAssemblies (1136ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (14ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (0ms)
+				BeforeProcessingInitializeOnLoad (259ms)
+				ProcessInitializeOnLoadAttributes (827ms)
+				ProcessInitializeOnLoadMethodAttributes (33ms)
+				AfterProcessingInitializeOnLoad (1ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (33ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.39 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2032 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 239.5 MB.
+System memory in use after: 239.6 MB.
+
+Unloading 12 unused Assets to reduce memory usage. Loaded Objects now: 2599.
+Total: 1.985334 ms (FindLiveObjects: 0.093875 ms CreateObjectMapping: 0.039208 ms MarkObjects: 1.823541 ms  DeleteObjects: 0.028042 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 21595.815996 seconds.
+  path: Assets/TutorialFiles/EvilLair/TinPot/Materials
+  artifactKey: Guid(392a030d1ca434fb1989b698f2675afb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TutorialFiles/EvilLair/TinPot/Materials using Guid(392a030d1ca434fb1989b698f2675afb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '737b69b3520a769949ebc8a210d93554') in 0.032454 seconds 
+  Import took 0.042894 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 17.693153 seconds.
+  path: Assets/TutorialFiles/EvilLair/TinPot/Player Controller.controller
+  artifactKey: Guid(41e1bdb1e37824ee6b8810b3906621b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TutorialFiles/EvilLair/TinPot/Player Controller.controller using Guid(41e1bdb1e37824ee6b8810b3906621b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '092b4a5c9dd4c995690922a99c455169') in 0.533696 seconds 
+  Import took 0.537757 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 526.113095 seconds.
+  path: Assets/TutorialFiles/EvilLair/TinPot
+  artifactKey: Guid(7a261778872ee4ddd8e8b8afb5f9638b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TutorialFiles/EvilLair/TinPot using Guid(7a261778872ee4ddd8e8b8afb5f9638b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ab4b3fd7303e4fcd18637132dbbb3ee1') in 0.002024 seconds 
+  Import took 0.019863 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002409 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 0.39 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+CreateSerializedAsset is not supported while importing out-of-process
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at /Users/bokken/buildslave/unity/build/Runtime/Export/Scripting/StackTrace.cs:37)
+AC.ACEditorPrefs:GetOrCreateSettings () (at /Users/paulkohler/Repos/ACSandbox/AdventurePlayground/Assets/AdventureCreator/Scripts/Managers/ACEditorPrefs.cs:96)
+AC.ACEditorPrefs:get_DisableInstaller () (at /Users/paulkohler/Repos/ACSandbox/AdventurePlayground/Assets/AdventureCreator/Scripts/Managers/ACEditorPrefs.cs:334)
+AC.ACInstaller:IsInstalled () (at /Users/paulkohler/Repos/ACSandbox/AdventurePlayground/Assets/AdventureCreator/Scripts/Managers/Editor/ACInstaller.cs:37)
+AC.ACInstaller:CheckInstall () (at /Users/paulkohler/Repos/ACSandbox/AdventurePlayground/Assets/AdventureCreator/Scripts/Managers/Editor/ACInstaller.cs:52)
+AC.ACInstaller:.cctor () (at /Users/paulkohler/Repos/ACSandbox/AdventurePlayground/Assets/AdventureCreator/Scripts/Managers/Editor/ACInstaller.cs:31)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[]) (at /Users/bokken/buildslave/unity/build/Editor/Mono/EditorAssemblies.cs:134)
+
+[/Users/paulkohler/Repos/ACSandbox/AdventurePlayground/Assets/AdventureCreator/Scripts/Managers/ACEditorPrefs.cs line 96]
+
+UnityEngine.UnityException: Creating asset at path Assets/AdventureCreator/Editor/ACEditorPrefs.asset failed.
+  at (wrapper managed-to-native) UnityEditor.AssetDatabase.CreateAsset(UnityEngine.Object,string)
+  at AC.ACEditorPrefs.GetOrCreateSettings () [0x00115] in /Users/paulkohler/Repos/ACSandbox/AdventurePlayground/Assets/AdventureCreator/Scripts/Managers/ACEditorPrefs.cs:96 
+  at AC.ACEditorPrefs.get_DisableInstaller () [0x00000] in /Users/paulkohler/Repos/ACSandbox/AdventurePlayground/Assets/AdventureCreator/Scripts/Managers/ACEditorPrefs.cs:334 
+  at AC.ACInstaller.IsInstalled () [0x00000] in /Users/paulkohler/Repos/ACSandbox/AdventurePlayground/Assets/AdventureCreator/Scripts/Managers/Editor/ACInstaller.cs:37 
+  at AC.ACInstaller.CheckInstall () [0x00000] in /Users/paulkohler/Repos/ACSandbox/AdventurePlayground/Assets/AdventureCreator/Scripts/Managers/Editor/ACInstaller.cs:52 
+  at AC.ACInstaller..cctor () [0x00000] in /Users/paulkohler/Repos/ACSandbox/AdventurePlayground/Assets/AdventureCreator/Scripts/Managers/Editor/ACInstaller.cs:31 
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at /Users/bokken/buildslave/unity/build/Runtime/Export/Scripting/StackTrace.cs:37)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[]) (at /Users/bokken/buildslave/unity/build/Editor/Mono/EditorAssemblies.cs:138)
+
+(Filename: /Users/bokken/buildslave/unity/build/Editor/Mono/EditorAssemblies.cs Line: 138)
+
+Mono: successfully reloaded assembly
+- Completed reload, in  2.390 seconds
+Domain Reload Profiling:
+	ReloadAssembly (2391ms)
+		BeginReloadAssembly (270ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (33ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (95ms)
+		EndReloadAssembly (2019ms)
+			LoadAssemblies (229ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (331ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (53ms)
+			SetupLoadedEditorAssemblies (1148ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (14ms)
+				SetLoadedEditorAssemblies (2ms)
+				RefreshPlugins (0ms)
+				BeforeProcessingInitializeOnLoad (243ms)
+				ProcessInitializeOnLoadAttributes (857ms)
+				ProcessInitializeOnLoadMethodAttributes (30ms)
+				AfterProcessingInitializeOnLoad (1ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (34ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.43 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2032 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 243.7 MB.
+System memory in use after: 243.8 MB.
+
+Unloading 12 unused Assets to reduce memory usage. Loaded Objects now: 2602.
+Total: 2.584458 ms (FindLiveObjects: 0.131333 ms CreateObjectMapping: 0.044042 ms MarkObjects: 2.345750 ms  DeleteObjects: 0.062042 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003142 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 0.69 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+CreateSerializedAsset is not supported while importing out-of-process
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at /Users/bokken/buildslave/unity/build/Runtime/Export/Scripting/StackTrace.cs:37)
+AC.ACEditorPrefs:GetOrCreateSettings () (at /Users/paulkohler/Repos/ACSandbox/AdventurePlayground/Assets/AdventureCreator/Scripts/Managers/ACEditorPrefs.cs:96)
+AC.ACEditorPrefs:get_DisableInstaller () (at /Users/paulkohler/Repos/ACSandbox/AdventurePlayground/Assets/AdventureCreator/Scripts/Managers/ACEditorPrefs.cs:334)
+AC.ACInstaller:IsInstalled () (at /Users/paulkohler/Repos/ACSandbox/AdventurePlayground/Assets/AdventureCreator/Scripts/Managers/Editor/ACInstaller.cs:37)
+AC.ACInstaller:CheckInstall () (at /Users/paulkohler/Repos/ACSandbox/AdventurePlayground/Assets/AdventureCreator/Scripts/Managers/Editor/ACInstaller.cs:52)
+AC.ACInstaller:.cctor () (at /Users/paulkohler/Repos/ACSandbox/AdventurePlayground/Assets/AdventureCreator/Scripts/Managers/Editor/ACInstaller.cs:31)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[]) (at /Users/bokken/buildslave/unity/build/Editor/Mono/EditorAssemblies.cs:134)
+
+[/Users/paulkohler/Repos/ACSandbox/AdventurePlayground/Assets/AdventureCreator/Scripts/Managers/ACEditorPrefs.cs line 96]
+
+UnityEngine.UnityException: Creating asset at path Assets/AdventureCreator/Editor/ACEditorPrefs.asset failed.
+  at (wrapper managed-to-native) UnityEditor.AssetDatabase.CreateAsset(UnityEngine.Object,string)
+  at AC.ACEditorPrefs.GetOrCreateSettings () [0x00115] in /Users/paulkohler/Repos/ACSandbox/AdventurePlayground/Assets/AdventureCreator/Scripts/Managers/ACEditorPrefs.cs:96 
+  at AC.ACEditorPrefs.get_DisableInstaller () [0x00000] in /Users/paulkohler/Repos/ACSandbox/AdventurePlayground/Assets/AdventureCreator/Scripts/Managers/ACEditorPrefs.cs:334 
+  at AC.ACInstaller.IsInstalled () [0x00000] in /Users/paulkohler/Repos/ACSandbox/AdventurePlayground/Assets/AdventureCreator/Scripts/Managers/Editor/ACInstaller.cs:37 
+  at AC.ACInstaller.CheckInstall () [0x00000] in /Users/paulkohler/Repos/ACSandbox/AdventurePlayground/Assets/AdventureCreator/Scripts/Managers/Editor/ACInstaller.cs:52 
+  at AC.ACInstaller..cctor () [0x00000] in /Users/paulkohler/Repos/ACSandbox/AdventurePlayground/Assets/AdventureCreator/Scripts/Managers/Editor/ACInstaller.cs:31 
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at /Users/bokken/buildslave/unity/build/Runtime/Export/Scripting/StackTrace.cs:37)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[]) (at /Users/bokken/buildslave/unity/build/Editor/Mono/EditorAssemblies.cs:138)
+
+(Filename: /Users/bokken/buildslave/unity/build/Editor/Mono/EditorAssemblies.cs Line: 138)
+
+Mono: successfully reloaded assembly
+- Completed reload, in  2.492 seconds
+Domain Reload Profiling:
+	ReloadAssembly (2494ms)
+		BeginReloadAssembly (283ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (36ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (99ms)
+		EndReloadAssembly (2053ms)
+			LoadAssemblies (239ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (384ms)
+			ReleaseScriptCaches (13ms)
+			RebuildScriptCaches (55ms)
+			SetupLoadedEditorAssemblies (1107ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (14ms)
+				SetLoadedEditorAssemblies (2ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (255ms)
+				ProcessInitializeOnLoadAttributes (803ms)
+				ProcessInitializeOnLoadMethodAttributes (30ms)
+				AfterProcessingInitializeOnLoad (1ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (30ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.39 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2032 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 243.9 MB.
+System memory in use after: 244.1 MB.
+
+Unloading 12 unused Assets to reduce memory usage. Loaded Objects now: 2605.
+Total: 2.071042 ms (FindLiveObjects: 0.101542 ms CreateObjectMapping: 0.062042 ms MarkObjects: 1.871083 ms  DeleteObjects: 0.035541 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 796.958776 seconds.
+  path: Assets/TutorialFiles/EvilLair/TinPot/Player Controller.controller
+  artifactKey: Guid(41e1bdb1e37824ee6b8810b3906621b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TutorialFiles/EvilLair/TinPot/Player Controller.controller using Guid(41e1bdb1e37824ee6b8810b3906621b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f995818ba7c44918e250c8ba81b59813') in 0.054225 seconds 
+  Import took 0.066467 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 155.770877 seconds.
+  path: Assets/TutorialFiles/EvilLair/TinPot/Player Controller.controller
+  artifactKey: Guid(41e1bdb1e37824ee6b8810b3906621b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TutorialFiles/EvilLair/TinPot/Player Controller.controller using Guid(41e1bdb1e37824ee6b8810b3906621b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6c2aba454aa516d351abb04d94e9a514') in 0.014729 seconds 
+  Import took 0.029241 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2026.900012 seconds.
+  path: Assets/Tutorial/EL_TinPot.prefab
+  artifactKey: Guid(7185159d54e0643ed8ac7b071325a25e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tutorial/EL_TinPot.prefab using Guid(7185159d54e0643ed8ac7b071325a25e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e6c4c3112e1cd09a5f4847b16c3eb283') in 0.233279 seconds 
+  Import took 0.245649 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002442 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 0.41 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+CreateSerializedAsset is not supported while importing out-of-process
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at /Users/bokken/buildslave/unity/build/Runtime/Export/Scripting/StackTrace.cs:37)
+AC.ACEditorPrefs:GetOrCreateSettings () (at /Users/paulkohler/Repos/ACSandbox/AdventurePlayground/Assets/AdventureCreator/Scripts/Managers/ACEditorPrefs.cs:96)
+AC.ACEditorPrefs:get_DisableInstaller () (at /Users/paulkohler/Repos/ACSandbox/AdventurePlayground/Assets/AdventureCreator/Scripts/Managers/ACEditorPrefs.cs:334)
+AC.ACInstaller:IsInstalled () (at /Users/paulkohler/Repos/ACSandbox/AdventurePlayground/Assets/AdventureCreator/Scripts/Managers/Editor/ACInstaller.cs:37)
+AC.ACInstaller:CheckInstall () (at /Users/paulkohler/Repos/ACSandbox/AdventurePlayground/Assets/AdventureCreator/Scripts/Managers/Editor/ACInstaller.cs:52)
+AC.ACInstaller:.cctor () (at /Users/paulkohler/Repos/ACSandbox/AdventurePlayground/Assets/AdventureCreator/Scripts/Managers/Editor/ACInstaller.cs:31)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[]) (at /Users/bokken/buildslave/unity/build/Editor/Mono/EditorAssemblies.cs:134)
+
+[/Users/paulkohler/Repos/ACSandbox/AdventurePlayground/Assets/AdventureCreator/Scripts/Managers/ACEditorPrefs.cs line 96]
+
+UnityEngine.UnityException: Creating asset at path Assets/AdventureCreator/Editor/ACEditorPrefs.asset failed.
+  at (wrapper managed-to-native) UnityEditor.AssetDatabase.CreateAsset(UnityEngine.Object,string)
+  at AC.ACEditorPrefs.GetOrCreateSettings () [0x00115] in /Users/paulkohler/Repos/ACSandbox/AdventurePlayground/Assets/AdventureCreator/Scripts/Managers/ACEditorPrefs.cs:96 
+  at AC.ACEditorPrefs.get_DisableInstaller () [0x00000] in /Users/paulkohler/Repos/ACSandbox/AdventurePlayground/Assets/AdventureCreator/Scripts/Managers/ACEditorPrefs.cs:334 
+  at AC.ACInstaller.IsInstalled () [0x00000] in /Users/paulkohler/Repos/ACSandbox/AdventurePlayground/Assets/AdventureCreator/Scripts/Managers/Editor/ACInstaller.cs:37 
+  at AC.ACInstaller.CheckInstall () [0x00000] in /Users/paulkohler/Repos/ACSandbox/AdventurePlayground/Assets/AdventureCreator/Scripts/Managers/Editor/ACInstaller.cs:52 
+  at AC.ACInstaller..cctor () [0x00000] in /Users/paulkohler/Repos/ACSandbox/AdventurePlayground/Assets/AdventureCreator/Scripts/Managers/Editor/ACInstaller.cs:31 
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at /Users/bokken/buildslave/unity/build/Runtime/Export/Scripting/StackTrace.cs:37)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[]) (at /Users/bokken/buildslave/unity/build/Editor/Mono/EditorAssemblies.cs:138)
+
+(Filename: /Users/bokken/buildslave/unity/build/Editor/Mono/EditorAssemblies.cs Line: 138)
+
+Mono: successfully reloaded assembly
+- Completed reload, in  2.648 seconds
+Domain Reload Profiling:
+	ReloadAssembly (2649ms)
+		BeginReloadAssembly (247ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (29ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (88ms)
+		EndReloadAssembly (2301ms)
+			LoadAssemblies (312ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (343ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (55ms)
+			SetupLoadedEditorAssemblies (1278ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (15ms)
+				SetLoadedEditorAssemblies (2ms)
+				RefreshPlugins (0ms)
+				BeforeProcessingInitializeOnLoad (295ms)
+				ProcessInitializeOnLoadAttributes (932ms)
+				ProcessInitializeOnLoadMethodAttributes (33ms)
+				AfterProcessingInitializeOnLoad (1ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (33ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.40 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2032 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 244.2 MB.
+System memory in use after: 244.3 MB.
+
+Unloading 12 unused Assets to reduce memory usage. Loaded Objects now: 2609.
+Total: 2.052833 ms (FindLiveObjects: 0.092958 ms CreateObjectMapping: 0.059208 ms MarkObjects: 1.869583 ms  DeleteObjects: 0.030458 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
