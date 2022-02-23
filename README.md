@@ -53,3 +53,14 @@ We may have to create an **Animator Controller** at this stage. In that controll
 By default , there will be **Jump** and **isTalking** parameters which are undefined. We can skip over jump for the basics, and create an isTalking bool which will transision us out of moving to speaking and back with no Exit Time if isTalking is true.
 
 We end by making this the player by returning to the **Settings Manager** by first making it a prefab and dragging it into place.
+
+------------
+
+###### The Default Camera
+
+In the **Scene Manager** we see a place for a **Default Camera**, where we can click **Create** to make and assign one.  The created object has many customizible components.  It's best to play the game to give the canera a certain feel,
+
+We can unlock movement on an axis to folow an object,  we can unlock spin so it always looks at an object, offset the starting position, Field of view to control relative zoom, min and max zoom, room constraints etc...
+
+
+------------
