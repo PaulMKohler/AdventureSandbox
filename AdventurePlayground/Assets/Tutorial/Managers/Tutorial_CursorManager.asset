@@ -23,7 +23,7 @@ MonoBehaviour:
   walkPrefix:
     label: Walk to
     lineID: -1
-  addHotspotPrefix: 0
+  addHotspotPrefix: 1
   allowInteractionCursor: 0
   allowInteractionCursorForInventory: 0
   cycleCursors: 0
@@ -151,7 +151,10 @@ MonoBehaviour:
     label: Look at
     lineID: -1
     id: 2
-  unhandledCursorInteractions: []
+  unhandledCursorInteractions:
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
   passUnhandledHotspotAsParameter: 0
   onlyShowCursorLabelOverHotspots: 0
   allowCursorCyclingWhenPaused: 0

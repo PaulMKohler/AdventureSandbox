@@ -73,3 +73,21 @@ Triggers can be created in the **Scene Manager** this creates an unnamed cube ar
 The scripted events of the **Trigger** are listed in the components as an **Action List**.  We can change this to a camera action in ordder to set up a camera transition for example.  The trigger can be set to run in the background, or pause gameplay, which you may have to toy with depending on the action.
 
 We can add multiple triggers on one object, to say cover different actions if a player enters or leaves an area.
+
+
+------------
+
+###### Hotspots and Interactions
+
+**Hotspots** are clickable regions we can create to generate **Interactions**.
+
+The **Scene Manager** has a **Hotspot** prefab.   Creating one will create an area which indicates where the hotspot will be in game.
+
+We can create a name for the **Hotspot** in the component.  Underneath **Use Interactions **we can create new Interactions for this Hotspot.  An example is a **Look At** interaction can have the player comment on something or turn to face it.
+We can create **Interactions** in the form of **Action Lists**, much like with Triggers.
+
+One hotspot can have many interactions, and each can have actions that deal with many theings like Player movement, Animation, Dialogue and so forth.  We can use Markers to indicate where the Player should move to if need be.
+
+In interactions we can send a message to call a function on a GameObject by using SendMessage.
+
+The interaction icons are in the **Cursor Manager**
