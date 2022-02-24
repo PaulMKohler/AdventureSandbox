@@ -64,3 +64,12 @@ We can unlock movement on an axis to folow an object,  we can unlock spin so it 
 
 
 ------------
+###### Triggers
+
+In the **Scene Manager** we can make a number of gameobjects, such as a second camera to cut to when entering another part of the scene. This can be handled by a trigger.
+
+Triggers can be created in the **Scene Manager** this creates an unnamed cube area in the scene which can be positioned to the trigger area.  We can alter properties of the trigger by looking at its components.
+
+The scripted events of the **Trigger** are listed in the components as an **Action List**.  We can change this to a camera action in ordder to set up a camera transition for example.  The trigger can be set to run in the background, or pause gameplay, which you may have to toy with depending on the action.
+
+We can add multiple triggers on one object, to say cover different actions if a player enters or leaves an area.
