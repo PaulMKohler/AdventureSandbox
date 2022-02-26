@@ -91,3 +91,12 @@ One hotspot can have many interactions, and each can have actions that deal with
 In interactions we can send a message to call a function on a GameObject by using SendMessage.
 
 The interaction icons are in the **Cursor Manager**
+
+------------
+###### Head Turning
+
+Now that we have hotspots we can give a nice additional ineraction by having the player turn its head to look at them when we mouse over them.
+
+In **Settings Manager** we can look at **Hotspot Settings** to find this option.
+
+We also have to go to the **Player** Object and look at the Mechanim Settings.  If humanoid and **IK Pass** is enabled all we have to do is check **IK turning**.  But if we have a Generic model set up, we need animations that look in the four cardinal directions.  And then we can control the degree of head swivel with a **2D Blend Tree**  Head Yaw is -1 for left +1 for right, Head Pitch is -1 for down +1 for up.

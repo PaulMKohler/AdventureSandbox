@@ -335,8 +335,8 @@ MonoBehaviour:
   talkParameter: IsTalking
   directionParameter: Direction
   angleParameter: Angle
-  headYawParameter: 
-  headPitchParameter: 
+  headYawParameter: headYaw
+  headPitchParameter: headPitch
   expressionParameter: 
   rootTurningFactor: 0
   headLayer: 1

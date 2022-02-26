@@ -22,100 +22,100 @@ AssetImportWorker0
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-64287
+58383
 Successfully changed project path to: /Users/paulkohler/Repos/ACSandbox/AdventureSandbox/AdventurePlayground
 /Users/paulkohler/Repos/ACSandbox/AdventureSandbox/AdventurePlayground
 Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 42.93 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 43.89 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2020.3.29f1 (2ff179115da0)
 [Subsystems] Discovering subsystems at path /Applications/Unity/Hub/Editor/2020.3.29f1/Unity.app/Contents/Resources/UnitySubsystems
 [Subsystems] Discovering subsystems at path /Users/paulkohler/Repos/ACSandbox/AdventureSandbox/AdventurePlayground/Assets
 GfxDevice: creating device client; threaded=0
-2022-02-24 21:29:15.703 Unity[55796:17152364] (null) preferred device: Apple M1 (high power)
-2022-02-24 21:29:15.703 Unity[55796:17152364] Metal devices available: 1
-2022-02-24 21:29:15.703 Unity[55796:17152364] 0: Apple M1 (high power)
-2022-02-24 21:29:15.703 Unity[55796:17152364] Using device Apple M1 (high power)
+2022-02-25 22:50:57.124 Unity[73507:17575989] (null) preferred device: Apple M1 (high power)
+2022-02-25 22:50:57.124 Unity[73507:17575989] Metal devices available: 1
+2022-02-25 22:50:57.124 Unity[73507:17575989] 0: Apple M1 (high power)
+2022-02-25 22:50:57.124 Unity[73507:17575989] Using device Apple M1 (high power)
 Initializing Metal device caps: Apple M1
 Initialize mono
 Mono path[0] = '/Applications/Unity/Hub/Editor/2020.3.29f1/Unity.app/Contents/Managed'
 Mono path[1] = '/Applications/Unity/Hub/Editor/2020.3.29f1/Unity.app/Contents/MonoBleedingEdge/lib/mono/unityjit'
 Mono config path = '/Applications/Unity/Hub/Editor/2020.3.29f1/Unity.app/Contents/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56796
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56507
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: /Applications/Unity/Hub/Editor/2020.3.29f1/Unity.app/Contents/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll
-Registered in 0.000981 seconds.
+Registered in 0.001076 seconds.
 Native extension for OSXStandalone target not found
-Refreshing native plugins compatible for Editor in 40.62 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 40.33 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.424 seconds
+- Completed reload, in  1.440 seconds
 Domain Reload Profiling:
-	ReloadAssembly (1425ms)
-		BeginReloadAssembly (115ms)
+	ReloadAssembly (1441ms)
+		BeginReloadAssembly (131ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (3ms)
-		EndReloadAssembly (1170ms)
-			LoadAssemblies (111ms)
-			RebuildTransferFunctionScriptingTraits (1ms)
-			SetupTypeCache (204ms)
+		EndReloadAssembly (1171ms)
+			LoadAssemblies (129ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (199ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (44ms)
-			SetupLoadedEditorAssemblies (636ms)
+			RebuildScriptCaches (46ms)
+			SetupLoadedEditorAssemblies (610ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (12ms)
+				InitializePlatformSupportModulesInManaged (15ms)
 				SetLoadedEditorAssemblies (1ms)
-				RefreshPlugins (41ms)
-				BeforeProcessingInitializeOnLoad (79ms)
-				ProcessInitializeOnLoadAttributes (335ms)
-				ProcessInitializeOnLoadMethodAttributes (167ms)
+				RefreshPlugins (40ms)
+				BeforeProcessingInitializeOnLoad (92ms)
+				ProcessInitializeOnLoadAttributes (346ms)
+				ProcessInitializeOnLoadMethodAttributes (115ms)
 				AfterProcessingInitializeOnLoad (0ms)
 				EditorAssembliesLoaded (1ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.002395 seconds.
+Registered in 0.002865 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for OSXStandalone target not found
-Refreshing native plugins compatible for Editor in 0.42 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 0.39 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  2.358 seconds
+- Completed reload, in  2.268 seconds
 Domain Reload Profiling:
-	ReloadAssembly (2360ms)
-		BeginReloadAssembly (270ms)
+	ReloadAssembly (2270ms)
+		BeginReloadAssembly (276ms)
 			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (32ms)
+			DisableScriptedObjects (33ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (41ms)
-		EndReloadAssembly (1991ms)
-			LoadAssemblies (190ms)
+		EndReloadAssembly (1894ms)
+			LoadAssemblies (208ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (386ms)
+			SetupTypeCache (365ms)
 			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (75ms)
-			SetupLoadedEditorAssemblies (1065ms)
+			RebuildScriptCaches (74ms)
+			SetupLoadedEditorAssemblies (994ms)
 				LogAssemblyErrors (0ms)
 				InitializePlatformSupportModulesInManaged (14ms)
 				SetLoadedEditorAssemblies (2ms)
 				RefreshPlugins (0ms)
-				BeforeProcessingInitializeOnLoad (205ms)
-				ProcessInitializeOnLoadAttributes (813ms)
-				ProcessInitializeOnLoadMethodAttributes (29ms)
+				BeforeProcessingInitializeOnLoad (200ms)
+				ProcessInitializeOnLoadAttributes (748ms)
+				ProcessInitializeOnLoadMethodAttributes (28ms)
 				AfterProcessingInitializeOnLoad (1ms)
 				EditorAssembliesLoaded (1ms)
 			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (32ms)
+			AwakeInstancesAfterBackupRestoration (29ms)
 Platform modules already initialized, skipping
-Validating Project structure ... 0.012884 seconds.
+Validating Project structure ... 0.012019 seconds.
 Shader import version has changed; will reimport all shaders...
-Upgrading shader files ...0.015964 seconds.
+Upgrading shader files ...0.013952 seconds.
 Application.AssetDatabase Initial Script Refresh Start
 RefreshInfo: InitialScriptRefreshV2(NoUpdateAssetOptions) scanfilter:  ... 1 filters
 RefreshProfiler: Total: 0.000ms
@@ -129,14 +129,14 @@ Launched and connected shader compiler UnityShaderCompiler after 0.04 seconds
 Initializing Unity extensions:
 ========================================================================
 Worker process is ready to serve import requests
-Refreshing native plugins compatible for Editor in 0.42 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 0.37 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 2042 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 204.3 MB.
-System memory in use after: 203.5 MB.
+System memory in use before: 204.7 MB.
+System memory in use after: 203.9 MB.
 
 Unloading 219 unused Assets to reduce memory usage. Loaded Objects now: 2521.
-Total: 3.521750 ms (FindLiveObjects: 0.120792 ms CreateObjectMapping: 0.040500 ms MarkObjects: 2.900750 ms  DeleteObjects: 0.458916 ms)
+Total: 3.350291 ms (FindLiveObjects: 0.099416 ms CreateObjectMapping: 0.040792 ms MarkObjects: 2.701625 ms  DeleteObjects: 0.507833 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
@@ -150,99 +150,8 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  path: Assets/TutorialFiles/EvilLair/Set/Laser_Gun_Controller.controller
-  artifactKey: Guid(8dff231523c0947349195d79df521e02) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/TutorialFiles/EvilLair/Set/Laser_Gun_Controller.controller using Guid(8dff231523c0947349195d79df521e02) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '108980daa30c6fc6656623fc01e55483') in 1.099288 seconds 
-  Import took 1.105630 seconds .
+  path: Assets/TutorialFiles/EvilLair/TinPot/Player Controller.controller
+  artifactKey: Guid(41e1bdb1e37824ee6b8810b3906621b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TutorialFiles/EvilLair/TinPot/Player Controller.controller using Guid(41e1bdb1e37824ee6b8810b3906621b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6d1cca7e45bc05d8e9f44da457de49bd') in 1.049428 seconds 
+  Import took 1.055802 seconds .
 
-========================================================================
-Received Import Request.
-  Time since last request: 27.302759 seconds.
-  path: Assets/TutorialFiles/EvilLair/Set/Laser_Gun_Controller.controller
-  artifactKey: Guid(8dff231523c0947349195d79df521e02) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/TutorialFiles/EvilLair/Set/Laser_Gun_Controller.controller using Guid(8dff231523c0947349195d79df521e02) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '79421d25fe5ecb1400b2b871432879a7') in 0.012585 seconds 
-  Import took 0.047139 seconds .
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.003466 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for OSXStandalone target not found
-Refreshing native plugins compatible for Editor in 0.38 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-CreateSerializedAsset is not supported while importing out-of-process
-UnityEngine.StackTraceUtility:ExtractStackTrace () (at /Users/bokken/buildslave/unity/build/Runtime/Export/Scripting/StackTrace.cs:37)
-AC.ACEditorPrefs:GetOrCreateSettings () (at /Users/paulkohler/Repos/ACSandbox/AdventurePlayground/Assets/AdventureCreator/Scripts/Managers/ACEditorPrefs.cs:96)
-AC.ACEditorPrefs:get_DisableInstaller () (at /Users/paulkohler/Repos/ACSandbox/AdventurePlayground/Assets/AdventureCreator/Scripts/Managers/ACEditorPrefs.cs:334)
-AC.ACInstaller:IsInstalled () (at /Users/paulkohler/Repos/ACSandbox/AdventurePlayground/Assets/AdventureCreator/Scripts/Managers/Editor/ACInstaller.cs:37)
-AC.ACInstaller:CheckInstall () (at /Users/paulkohler/Repos/ACSandbox/AdventurePlayground/Assets/AdventureCreator/Scripts/Managers/Editor/ACInstaller.cs:52)
-AC.ACInstaller:.cctor () (at /Users/paulkohler/Repos/ACSandbox/AdventurePlayground/Assets/AdventureCreator/Scripts/Managers/Editor/ACInstaller.cs:31)
-System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
-UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[]) (at /Users/bokken/buildslave/unity/build/Editor/Mono/EditorAssemblies.cs:134)
-
-[/Users/paulkohler/Repos/ACSandbox/AdventurePlayground/Assets/AdventureCreator/Scripts/Managers/ACEditorPrefs.cs line 96]
-
-UnityEngine.UnityException: Creating asset at path Assets/AdventureCreator/Editor/ACEditorPrefs.asset failed.
-  at (wrapper managed-to-native) UnityEditor.AssetDatabase.CreateAsset(UnityEngine.Object,string)
-  at AC.ACEditorPrefs.GetOrCreateSettings () [0x00115] in /Users/paulkohler/Repos/ACSandbox/AdventurePlayground/Assets/AdventureCreator/Scripts/Managers/ACEditorPrefs.cs:96 
-  at AC.ACEditorPrefs.get_DisableInstaller () [0x00000] in /Users/paulkohler/Repos/ACSandbox/AdventurePlayground/Assets/AdventureCreator/Scripts/Managers/ACEditorPrefs.cs:334 
-  at AC.ACInstaller.IsInstalled () [0x00000] in /Users/paulkohler/Repos/ACSandbox/AdventurePlayground/Assets/AdventureCreator/Scripts/Managers/Editor/ACInstaller.cs:37 
-  at AC.ACInstaller.CheckInstall () [0x00000] in /Users/paulkohler/Repos/ACSandbox/AdventurePlayground/Assets/AdventureCreator/Scripts/Managers/Editor/ACInstaller.cs:52 
-  at AC.ACInstaller..cctor () [0x00000] in /Users/paulkohler/Repos/ACSandbox/AdventurePlayground/Assets/AdventureCreator/Scripts/Managers/Editor/ACInstaller.cs:31 
-UnityEngine.StackTraceUtility:ExtractStackTrace () (at /Users/bokken/buildslave/unity/build/Runtime/Export/Scripting/StackTrace.cs:37)
-UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
-UnityEngine.Logger:Log (UnityEngine.LogType,object)
-UnityEngine.Debug:LogError (object)
-UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[]) (at /Users/bokken/buildslave/unity/build/Editor/Mono/EditorAssemblies.cs:138)
-
-(Filename: /Users/bokken/buildslave/unity/build/Editor/Mono/EditorAssemblies.cs Line: 138)
-
-Mono: successfully reloaded assembly
-- Completed reload, in  2.253 seconds
-Domain Reload Profiling:
-	ReloadAssembly (2255ms)
-		BeginReloadAssembly (266ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (34ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (95ms)
-		EndReloadAssembly (1889ms)
-			LoadAssemblies (223ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (344ms)
-			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (57ms)
-			SetupLoadedEditorAssemblies (1022ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (14ms)
-				SetLoadedEditorAssemblies (2ms)
-				RefreshPlugins (0ms)
-				BeforeProcessingInitializeOnLoad (238ms)
-				ProcessInitializeOnLoadAttributes (738ms)
-				ProcessInitializeOnLoadMethodAttributes (28ms)
-				AfterProcessingInitializeOnLoad (1ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (30ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.39 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 2032 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 206.4 MB.
-System memory in use after: 206.6 MB.
-
-Unloading 13 unused Assets to reduce memory usage. Loaded Objects now: 2525.
-Total: 2.017750 ms (FindLiveObjects: 0.101916 ms CreateObjectMapping: 0.041334 ms MarkObjects: 1.849666 ms  DeleteObjects: 0.023875 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
