@@ -82,7 +82,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a5f455f0e4a864975bf60bc153fbe20d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  menuSource: 0
+  menuSource: 1
   canvas: {fileID: 0}
   canvasAssetKey: 
   canvasID: 0
@@ -93,9 +93,9 @@ MonoBehaviour:
   _isLocked: 0
   id: 8
   title: Load
-  manualSize: {x: 31, y: 30.828236}
+  manualSize: {x: 30.999998, y: 32.665962}
   positionType: 0
-  manualPosition: {x: 352, y: 850}
+  manualPosition: {x: 630.5, y: 473}
   positionSmoothing: 0
   alignment: 0
   toggleKey: 
@@ -168,14 +168,14 @@ MonoBehaviour:
   speechProximityLimit: 0
   speechProximityDistance: 10
   deleteUIWhenTurnOff: 0
-  biggestElementSize: {x: 214.72, y: 520.56}
+  biggestElementSize: {x: 384.60498, y: 302.715}
   rect:
     serializedVersion: 2
-    x: 242.88
-    y: 587.95996
-    width: 218.24
-    height: 524.08
-  showInFilter: 0
+    x: 435.045
+    y: 318.49
+    width: 390.90997
+    height: 309.02
+  showInFilter: 1
 --- !u!114 &-7433678630981341848
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -404,10 +404,10 @@ MonoBehaviour:
   maxAutoWidthFactor: 0.5
   relativeRect:
     serializedVersion: 2
-    x: 3.52
-    y: 3.52
-    width: 211.2
-    height: 85
+    x: 6.305
+    y: 6.305
+    width: 378.3
+    height: 47.3
   relativePosition: {x: 0, y: 0}
   numSlots: 1
   uiText: {fileID: 0}
@@ -2316,7 +2316,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a5f455f0e4a864975bf60bc153fbe20d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  menuSource: 0
+  menuSource: 1
   canvas: {fileID: 0}
   canvasAssetKey: 
   canvasID: 0
@@ -2515,10 +2515,10 @@ MonoBehaviour:
   maxAutoWidthFactor: 0.5
   relativeRect:
     serializedVersion: 2
-    x: 3.52
-    y: 92.03999
-    width: 211.2
-    height: 340
+    x: 6.305
+    y: 59.91
+    width: 378.3
+    height: 189.2
   relativePosition: {x: 0, y: 0}
   numSlots: 4
   uiSlots:
@@ -2573,7 +2573,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a5f455f0e4a864975bf60bc153fbe20d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  menuSource: 0
+  menuSource: 1
   canvas: {fileID: 0}
   canvasAssetKey: 
   canvasID: 0
@@ -2714,10 +2714,10 @@ MonoBehaviour:
   maxAutoWidthFactor: 0.5
   relativeRect:
     serializedVersion: 2
-    x: 3.52
-    y: 435.56
-    width: 211.2
-    height: 85
+    x: 6.305
+    y: 255.415
+    width: 378.3
+    height: 47.3
   relativePosition: {x: 0, y: 0}
   numSlots: 1
   uiButton: {fileID: 0}
@@ -2912,7 +2912,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a5f455f0e4a864975bf60bc153fbe20d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  menuSource: 0
+  menuSource: 1
   canvas: {fileID: 0}
   canvasAssetKey: 
   canvasID: 0

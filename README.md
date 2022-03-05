@@ -109,3 +109,15 @@ We also have to go to the **Player** Object and look at the Mechanim Settings.  
 We can use a template file downloaded by a unity package to import managers.  The **Menu Manager** controls the look and feel of the UI.  When we download a package we can choose override managers to use only the new managers.
 
 We do have to go back and change anything within the new manager which we had customized.
+
+------------
+
+###### NPC Creation
+
+We can use the **character wizard** to make a new NPC from a model.
+
+When we finish selecting a model it will add several components to the in scene instance.
+
+If we have an NPC which doesnt move we dont need the rigidbody.  Depending on the circumstance it may be easier to create a new hotspot and capsule collider.
+
+You can select the model and check position over selected mesh to create new hotspots.
