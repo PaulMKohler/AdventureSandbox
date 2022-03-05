@@ -783,6 +783,59 @@ MeshCollider:
   m_Convex: 1
   m_CookingOptions: 30
   m_Mesh: {fileID: 4300026, guid: 0c0ee13a0d05340c4a3abd1be90fd27c, type: 3}
+--- !u!1 &577123971 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 100006, guid: 4b77cc5531c6d4c42b235a59d1f190e3, type: 3}
+  m_PrefabInstance: {fileID: 1646897559}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &577123973
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 577123971}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6973a3c06ca6d484494390d4f3bf8819, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  highlightWhenSelected: 1
+  brightenMaterials: 1
+  affectChildren: 1
+  fadeTime: 0.3
+  flashHoldTime: 0
+  highlightCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 1
+      outSlope: 1
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0
+      outWeight: 0
+    - serializedVersion: 3
+      time: 1
+      value: 2
+      inSlope: 1
+      outSlope: 1
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0
+      outWeight: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  callEvents: 0
+  onHighlightOn:
+    m_PersistentCalls:
+      m_Calls: []
+  onHighlightOff:
+    m_PersistentCalls:
+      m_Calls: []
 --- !u!1 &600871749
 GameObject:
   m_ObjectHideFlags: 0
@@ -1606,6 +1659,59 @@ MonoBehaviour:
   customValueParameterID: -1
   customValue: 0
   ignoreWhenSkipping: 0
+--- !u!1 &1317292772 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 100000, guid: 7aed8374a8f874cebb4149e9d3a7c4ed, type: 3}
+  m_PrefabInstance: {fileID: 77756262}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1317292773
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1317292772}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6973a3c06ca6d484494390d4f3bf8819, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  highlightWhenSelected: 0
+  brightenMaterials: 1
+  affectChildren: 1
+  fadeTime: 0.3
+  flashHoldTime: 0
+  highlightCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 1
+      outSlope: 1
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0
+      outWeight: 0
+    - serializedVersion: 3
+      time: 1
+      value: 2
+      inSlope: 1
+      outSlope: 1
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0
+      outWeight: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  callEvents: 0
+  onHighlightOn:
+    m_PersistentCalls:
+      m_Calls: []
+  onHighlightOff:
+    m_PersistentCalls:
+      m_Calls: []
 --- !u!1 &1323080637
 GameObject:
   m_ObjectHideFlags: 0
@@ -4023,7 +4129,7 @@ MonoBehaviour:
   interactiveBoundary: {fileID: 0}
   hotspotName: Lift Door
   lineID: -1
-  highlight: {fileID: 0}
+  highlight: {fileID: 1317292773}
   walkToMarker: {fileID: 3459558015556951886}
   centrePoint: {fileID: 0}
   centrePointOverrides: 0
@@ -4394,7 +4500,7 @@ MonoBehaviour:
   interactiveBoundary: {fileID: 0}
   hotspotName: Laser
   lineID: -1
-  highlight: {fileID: 0}
+  highlight: {fileID: 577123973}
   walkToMarker: {fileID: 0}
   centrePoint: {fileID: 0}
   centrePointOverrides: 0

@@ -14,9 +14,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   actionsManager: {fileID: 11400000, guid: 56b6d5033ea85435bab36dd7ab4a795f, type: 2}
   sceneManager: {fileID: 11400000, guid: e4fed057e46a04b3cb2e5e762bc3a044, type: 2}
-  settingsManager: {fileID: 11400000, guid: 10fc79df1c3334e3ebb9af594252eeba, type: 2}
+  settingsManager: {fileID: 11400000, guid: 0988239f28fcd422bb4e459220b60aab, type: 2}
   inventoryManager: {fileID: 11400000, guid: 8868f442420b44009b6f608075e4ef35, type: 2}
   variablesManager: {fileID: 11400000, guid: 0468795bf6e614c08870d302a568c53a, type: 2}
   speechManager: {fileID: 11400000, guid: c58b19f6ad95d46c7bd7214bd062514c, type: 2}
-  cursorManager: {fileID: 11400000, guid: 7e0fc46d8172f47df9ab990f9097ffb5, type: 2}
-  menuManager: {fileID: 11400000, guid: 3fed4f0056a2b48958eb537edf738966, type: 2}
+  cursorManager: {fileID: 11400000, guid: f00756170b0604c6e94e8675e614daab, type: 2}
+  menuManager: {fileID: 11400000, guid: cc2adffeda0b14e32aac45115e447275, type: 2}

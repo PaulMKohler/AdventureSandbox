@@ -162,7 +162,7 @@ MonoBehaviour:
     frameSpeeds: []
     alwaysAnimate: 0
   hotspotIconSize: 0.04
-  playerFacesHotspots: 0
+  playerFacesHotspots: 1
   onlyFaceHotspotOnSelect: 0
   scaleHighlightWithMouseProximity: 0
   highlightProximityFactor: 4
