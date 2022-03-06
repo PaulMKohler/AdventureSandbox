@@ -121,3 +121,13 @@ When we finish selecting a model it will add several components to the in scene 
 If we have an NPC which doesnt move we dont need the rigidbody.  Depending on the circumstance it may be easier to create a new hotspot and capsule collider.
 
 You can select the model and check position over selected mesh to create new hotspots.
+
+------------
+
+######  Opening Cutscene
+
+The **Scene Manager** has an option for cutscene.  Making a new cutscene allows us to bring up a new **Action List**.
+
+Use camera switches, object teleports and markers to direct a scene.
+
+If we need to have a character look at another character's head we need to set up a neck bone object for the NPC we need to look at.
