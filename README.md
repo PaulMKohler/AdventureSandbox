@@ -135,3 +135,5 @@ If we need to have a character look at another character's head we need to set u
 Run automatically on scene start. We can set this up on the **Scene Manager**.  To play the first time we enter a scene and not every time we come back to the room we need a variable
 
 This can be set up from the **Variable Manager**  Global vars are used across gameplay, local are attached to scenes.
+
+The EndCutscene input can be set up to skip cutscenes.
