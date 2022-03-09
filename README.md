@@ -131,3 +131,7 @@ The **Scene Manager** has an option for cutscene.  Making a new cutscene allows 
 Use camera switches, object teleports and markers to direct a scene.
 
 If we need to have a character look at another character's head we need to set up a neck bone object for the NPC we need to look at.
+
+Run automatically on scene start. We can set this up on the **Scene Manager**.  To play the first time we enter a scene and not every time we come back to the room we need a variable
+
+This can be set up from the **Variable Manager**  Global vars are used across gameplay, local are attached to scenes.
