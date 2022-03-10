@@ -149,3 +149,19 @@ Use the dialogue option to play speech, and a Start Conversation to begin a **Co
 We can create dialogue options in the conversation.
 
 To have different opening dialogue, or to separate out part of the action list, you can create other cutscenes and run action lists from within other ones.
+
+------------
+
+###### Facial Animations
+
+Third-party tools can be used but this can be handled inside Adventure Creator.
+
+The **SkinnedMeshRenderer** Component has **Blendshapes** defined for certain expressions.
+
+A **Shapeable** Component can be used to group the expressions into non overlapping groups.  It is in this component where we can define shape groups and shape keys.
+
+We can use parseable keywords within textblocks to perform actions, like waiting or expression change, with [wait:x] and [expression:x]. Make sure to check the UseExpressions boolean in the dialog settings of the character. We can map the expressions to a shapeable component.
+
+Lip synching  we can use phemones to know how to animate. The **Speech Manager** has a section for lip synching. Options not from speech text can generate data that can be fed into a third-party tool.
+
+We can edit phemeomes by letting the dialogue effect the game object and using the **Phemome Editor**   We can group sounds like ah/o/uh into a phemome group. The default groups crates five groups.  We have blend shapes for these in our dummy model, but need to create the group and keys for them.  We can set this a the Phemone Blend Group in the characters mechanim parameters.
