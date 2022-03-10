@@ -62,9 +62,14 @@ MonoBehaviour:
   ignoreOriginalText: 0
   sfxDucking: 0
   musicDucking: 0
-  lipSyncMode: 0
-  lipSyncOutput: 0
-  phonemes: []
+  lipSyncMode: 1
+  lipSyncOutput: 1
+  phonemes:
+  - 'B/M/P/MBP/ '
+  - AY/AH/IH/EY/ER
+  - G/O/OO/OH/W
+  - SH/R/Z/SF/D/L/F/TN/K/N/NG/H/X/FV
+  - UH/EH/DH/AE/IY
   lipSyncSpeed: 1
   translatableTextTypes: -1
   maxID: -1
