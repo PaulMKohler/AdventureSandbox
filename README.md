@@ -137,3 +137,15 @@ Run automatically on scene start. We can set this up on the **Scene Manager**.  
 This can be set up from the **Variable Manager**  Global vars are used across gameplay, local are attached to scenes.
 
 The EndCutscene input can be set up to skip cutscenes.
+
+------------
+
+###### Conversations
+
+You mmay want to make a new camera for the conversation. Do this by using the scene manager to create a new Simple Camera.
+
+Use the dialogue option to play speech, and a Start Conversation to begin a **Conversation** object.  A new conversation can be created by the **Scene Manager**.
+
+We can create dialogue options in the conversation.
+
+To have different opening dialogue, or to separate out part of the action list, you can create other cutscenes and run action lists from within other ones.
