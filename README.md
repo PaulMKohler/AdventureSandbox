@@ -165,3 +165,11 @@ We can use parseable keywords within textblocks to perform actions, like waiting
 Lip synching  we can use phemones to know how to animate. The **Speech Manager** has a section for lip synching. Options not from speech text can generate data that can be fed into a third-party tool.
 
 We can edit phemeomes by letting the dialogue effect the game object and using the **Phemome Editor**   We can group sounds like ah/o/uh into a phemome group. The default groups crates five groups.  We have blend shapes for these in our dummy model, but need to create the group and keys for them.  We can set this a the Phemone Blend Group in the characters mechanim parameters.
+
+------------
+
+###### Background Speech
+
+Use a cutscene that doesnt intrrupt gameplay to perform background speech.  Use the **Run In Background** option to do this.  We can use Variable/Check Random Number to play from a random list of options.
+
+We can use Action List Pause or Resume to pause speech if a character is far away or if we are doing something in the scene which should not be interrurpted.
