@@ -173,3 +173,19 @@ We can edit phemeomes by letting the dialogue effect the game object and using t
 Use a cutscene that doesnt intrrupt gameplay to perform background speech.  Use the **Run In Background** option to do this.  We can use Variable/Check Random Number to play from a random list of options.
 
 We can use Action List Pause or Resume to pause speech if a character is far away or if we are doing something in the scene which should not be interrurpted.
+
+------------
+
+###### Close ups
+
+We may run into an area where a closeup is needed of an object. First crate a hotspot around the object. Make a camera to focus the object and a walk to marker if needed.
+
+When enabling actions on the object, remove the hotspot first so controls can be accessed. Then restrict player movement.
+
+To get around the objects being highlighted we can attach a Highlight to the Hotspot itself and then uncheck the auto highlight when enabled.
+
+In the Settings Manager we can Hide Icons Behind Colliders.
+
+We can make animations to interact with objects and add them to our player controller. We can use another method to enact these animations, for now give them simpler descriptive names and transition them with exit time back to the root locomotion animation.
+
+When calling an animation through Play Custom, we have the option to wait until the animation finishes rather than enforce an engine wait.

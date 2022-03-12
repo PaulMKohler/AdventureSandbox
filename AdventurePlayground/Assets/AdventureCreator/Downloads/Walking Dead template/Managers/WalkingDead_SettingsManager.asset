@@ -174,7 +174,7 @@ MonoBehaviour:
   onlyFaceHotspotOnSelect: 0
   scaleHighlightWithMouseProximity: 1
   highlightProximityFactor: 4
-  occludeIcons: 0
+  occludeIcons: 1
   hideIconUnderInteractionMenu: 0
   hotspotDrawing: 0
   hideUnhandledHotspots: 0
