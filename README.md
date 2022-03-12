@@ -189,3 +189,19 @@ In the Settings Manager we can Hide Icons Behind Colliders.
 We can make animations to interact with objects and add them to our player controller. We can use another method to enact these animations, for now give them simpler descriptive names and transition them with exit time back to the root locomotion animation.
 
 When calling an animation through Play Custom, we have the option to wait until the animation finishes rather than enforce an engine wait.
+
+------------
+
+###### Custom Menus
+
+In order to exit a close up we may need a custom menu.  We can manage all of our menus from the **Menu Manager**.
+
+We can hit Create new menu if we need a new menu to exit closeups,  Leaving it rendered by Adcventure Creator is a good way to prototype menus
+
+The menu elements are listed underneath the component.
+
+The alignment of the parent menu decides where the elements will appear, you can preview and prototype in the **Game** window if using AC default.
+
+We can set the menu to run during gameplay, but start locked, then when we want to see it we unlock.  When exiting the new menu we will have to create an actionlist to reverse any actions and return to gameplay.
+
+To use Unity UI Prefab we have to create a new menu canvas in Unity to use.
