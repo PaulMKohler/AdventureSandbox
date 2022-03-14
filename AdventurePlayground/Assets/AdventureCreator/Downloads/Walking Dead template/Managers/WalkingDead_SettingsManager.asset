@@ -126,7 +126,18 @@ MonoBehaviour:
   freeAimSmoothSpeed: 50
   firstPersonMovementSmoothing: 1
   assumeInputsDefined: 0
-  activeInputs: []
+  activeInputs:
+  - label: Exit Closeup
+    ID: 1
+    inputName: Down
+    enabledOnStart: 0
+    gameState: 0
+    gameStateFlags: 0
+    actionListAsset: {fileID: 11400000, guid: 4081684f121eb4bc5bedd44011639156, type: 2}
+    inputType: 0
+    axisThreshold: 0.2
+    buttonType: 0
+    hasUpgraded: 1
   freeAimTouchSpeed: 0.01
   dragWalkThreshold: 5
   dragRunThreshold: 20

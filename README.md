@@ -205,3 +205,13 @@ The alignment of the parent menu decides where the elements will appear, you can
 We can set the menu to run during gameplay, but start locked, then when we want to see it we unlock.  When exiting the new menu we will have to create an actionlist to reverse any actions and return to gameplay.
 
 To use Unity UI Prefab we have to create a new menu canvas in Unity to use.
+
+------------
+
+###### Active Inputs
+
+We have an alternative input button field in our new menu.
+
+We can assign this an input button axis or use an Active Input. We can access active inputs through the adventure creator menu where we found the character wizards.
+
+We can activate this input when we need it and hook it up to an action list which leaves it disabled otherwise.  We can create action lists to cover when a menu is turned on or off, for example where we can handle the activation of the input.
