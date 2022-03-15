@@ -215,3 +215,15 @@ We have an alternative input button field in our new menu.
 We can assign this an input button axis or use an Active Input. We can access active inputs through the adventure creator menu where we found the character wizards.
 
 We can activate this input when we need it and hook it up to an action list which leaves it disabled otherwise.  We can create action lists to cover when a menu is turned on or off, for example where we can handle the activation of the input.
+
+------------
+
+###### Inventory Items
+
+An inventory item is any item that the player can pickup and use on other hotspots or items.
+
+In the **Inventory Manager** we can create a new item.  We can assign a texture to the main graphic field to represent the item.
+
+We can edit the Inventory Menu in the **Menu Manager** to change the items are seen in the UI. The UI Unity Prefab can be changed for your UI.
+
+We can give things a standard interaction in the item definition.

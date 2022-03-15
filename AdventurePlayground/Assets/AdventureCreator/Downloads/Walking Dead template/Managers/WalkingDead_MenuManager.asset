@@ -1576,7 +1576,7 @@ MonoBehaviour:
   positionSmoothing: 0
   alignment: 3
   toggleKey: 
-  ignoreMouseClicks: 1
+  ignoreMouseClicks: 0
   pauseWhenEnabled: 0
   showWhenPaused: 0
   canClickInCutscene: 0
