@@ -132,8 +132,8 @@ MonoBehaviour:
   isBreakPoint: 0
   nodeRect:
     serializedVersion: 2
-    x: 33.489502
-    y: 350.466
+    x: 32.489502
+    y: 426.466
     width: 300
     height: 132
   overrideColor: {r: 1, g: 1, b: 1, a: 1}
@@ -249,7 +249,7 @@ MonoBehaviour:
     m_PostInfinity: 2
     m_RotationOrder: 4
   moveMethod: 0
-  returnToLast: 0
+  returnToLast: 1
   retainPreviousSpeed: 0
   waitForAnimation: 0
 --- !u!114 &8796967023875394285

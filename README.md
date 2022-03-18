@@ -227,3 +227,7 @@ In the **Inventory Manager** we can create a new item.  We can assign a texture 
 We can edit the Inventory Menu in the **Menu Manager** to change the items are seen in the UI. The UI Unity Prefab can be changed for your UI.
 
 We can give things a standard interaction in the item definition.
+
+If we want to run ActionLists in parallel we can achieve simaltaneous runtimes to play things while say, an animation plays.
+
+We have to assign things to the character left and right hand bones if we want the character to pick up stuff.

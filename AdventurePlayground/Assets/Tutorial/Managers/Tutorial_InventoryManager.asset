@@ -16,7 +16,7 @@ MonoBehaviour:
   - label: Instruction Manual
     id: 0
     altLabel: Instruction Manual
-    carryOnStart: 1
+    carryOnStart: 0
     carryOnStartNotDefault: 0
     carryOnStartIDs: 00000000
     vars: []

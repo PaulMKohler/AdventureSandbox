@@ -309,8 +309,8 @@ MonoBehaviour:
   phonemeParameter: 
   phonemeNormalisedParameter: 
   lipSyncGroupID: 0
-  leftHandBone: {fileID: 0}
-  rightHandBone: {fileID: 0}
+  leftHandBone: {fileID: 7830105472703427619}
+  rightHandBone: {fileID: 7830105472703427647}
   idleAnim: {fileID: 0}
   walkAnim: {fileID: 0}
   runAnim: {fileID: 0}
