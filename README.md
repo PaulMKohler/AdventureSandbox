@@ -231,3 +231,15 @@ We can give things a standard interaction in the item definition.
 If we want to run ActionLists in parallel we can achieve simaltaneous runtimes to play things while say, an animation plays.
 
 We have to assign things to the character left and right hand bones if we want the character to pick up stuff.
+
+------------
+
+###### Action List Parameters
+
+When we have to run the same set of actions but slightly different we can use action list parameters to recycle the same actions multiple times.
+
+The cog in the action list editor allows us to save the action list as an asset.
+
+Show properties, use parameters can be checked to use params.
+
+Once we define some object params we can use them to substitute into fields in the action list.
