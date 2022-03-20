@@ -247,3 +247,15 @@ Once we define some object params we can use them to substitute into fields in t
 ------------
 
 ######  Inventory Interactions
+
+We can define a inventory interaction in the Component of the Hotspot.
+
+When we complete a puzzle we may want to set a global variable that keeps trac kof if we have completed the puzzle.
+
+This would let us know if we completed this puzzle in other scenes.
+
+This can be done from the **Variables Manager**
+
+After we perform a one time only interaction we can change the interaction
+
+In settings we can save components as well to save the whole state or add ac save objects to each object we want saved.
