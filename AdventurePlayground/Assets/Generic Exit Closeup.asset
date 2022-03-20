@@ -33,8 +33,8 @@ MonoBehaviour:
   isBreakPoint: 0
   nodeRect:
     serializedVersion: 2
-    x: 26.360939
-    y: 258.58725
+    x: 23
+    y: 577
     width: 300
     height: 21
   overrideColor: {r: 1, g: 1, b: 1, a: 1}
@@ -80,8 +80,8 @@ MonoBehaviour:
   isBreakPoint: 0
   nodeRect:
     serializedVersion: 2
-    x: 28.45734
-    y: 178.85414
+    x: 22
+    y: 296
     width: 300
     height: 21
   overrideColor: {r: 1, g: 1, b: 1, a: 1}
@@ -161,7 +161,7 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 3cc1f751990d444ef9e1381090933b8b, type: 3}
-  m_Name: Closeup_CloseupButton_OnClick
+  m_Name: Generic Exit Closeup
   m_EditorClassIdentifier: 
   actions:
   - {fileID: 3931652809774177920}
@@ -172,11 +172,39 @@ MonoBehaviour:
   isSkippable: 1
   actionListType: 0
   unfreezePauseMenus: 1
-  useParameters: 0
+  useParameters: 1
   canRunMultipleInstances: 0
   canSurviveSceneChanges: 0
   revertToDefaultParametersAfterRunning: 0
-  parameters: []
+  parameters:
+  - label: Camera to switch to
+    description: 
+    ID: 0
+    parameterType: 0
+    intValue: -1
+    constantID: 0
+    popUpID: 0
+    floatValue: 0
+    stringValue: 
+    gameObject: {fileID: 0}
+    objectValue: {fileID: 0}
+    vector3Value: {x: 0, y: 0, z: 0}
+    gameObjectParameterReferences: 0
+    variables: {fileID: 0}
+  - label: Hotspot to enable
+    description: 
+    ID: 1
+    parameterType: 0
+    intValue: -1
+    constantID: 0
+    popUpID: 0
+    floatValue: 0
+    stringValue: 
+    gameObject: {fileID: 0}
+    objectValue: {fileID: 0}
+    vector3Value: {x: 0, y: 0, z: 0}
+    gameObjectParameterReferences: 0
+    variables: {fileID: 0}
   tagID: 0
   backupData: []
 --- !u!114 &3931652809774177920
@@ -192,7 +220,7 @@ MonoBehaviour:
   m_Name: (Clone)
   m_EditorClassIdentifier: 
   id: 0
-  isDisplayed: 0
+  isDisplayed: 1
   showComment: 0
   comment: 
   willWait: 0
@@ -215,12 +243,12 @@ MonoBehaviour:
     x: 14
     y: 14
     width: 300
-    height: 21
+    height: 152
   overrideColor: {r: 1, g: 1, b: 1, a: 1}
   showOutputSockets: 1
   parentActionListInEditor: {fileID: 0}
-  constantID: 10390
-  parameterID: -1
+  constantID: 0
+  parameterID: 0
   linkedCamera: {fileID: 0}
   transitionTime: 0
   transitionTimeParameterID: -1
@@ -249,7 +277,7 @@ MonoBehaviour:
     m_PostInfinity: 2
     m_RotationOrder: 4
   moveMethod: 0
-  returnToLast: 1
+  returnToLast: 0
   retainPreviousSpeed: 0
   waitForAnimation: 0
 --- !u!114 &8796967023875394285
@@ -265,7 +293,7 @@ MonoBehaviour:
   m_Name: (Clone)
   m_EditorClassIdentifier: 
   id: 0
-  isDisplayed: 0
+  isDisplayed: 1
   showComment: 0
   comment: 
   willWait: 0
@@ -285,15 +313,15 @@ MonoBehaviour:
   isBreakPoint: 0
   nodeRect:
     serializedVersion: 2
-    x: 20.328796
-    y: 88.396805
+    x: 18
+    y: 156
     width: 300
-    height: 21
+    height: 132
   overrideColor: {r: 1, g: 1, b: 1, a: 1}
   showOutputSockets: 1
   parentActionListInEditor: {fileID: 0}
-  parameterID: -1
-  constantID: 10016
+  parameterID: 1
+  constantID: 0
   hotspot: {fileID: 0}
   affectChildren: 0
   changeType: 0

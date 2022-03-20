@@ -243,3 +243,7 @@ The cog in the action list editor allows us to save the action list as an asset.
 Show properties, use parameters can be checked to use params.
 
 Once we define some object params we can use them to substitute into fields in the action list.
+
+------------
+
+######  Inventory Interactions
