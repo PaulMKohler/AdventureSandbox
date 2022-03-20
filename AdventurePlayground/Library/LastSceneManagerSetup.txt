@@ -1,5 +1,5 @@
 sceneSetups:
-- path: Assets/AdventureCreator/Demo/Scenes/Basement.unity
+- path: Assets/TutorialFiles/EvilLair/EvilLair.unity
   isLoaded: 1
   isActive: 1
   isSubScene: 0

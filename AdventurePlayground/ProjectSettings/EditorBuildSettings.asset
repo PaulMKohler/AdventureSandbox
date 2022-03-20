@@ -4,5 +4,8 @@
 EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
-  m_Scenes: []
+  m_Scenes:
+  - enabled: 1
+    path: Assets/TutorialFiles/EvilLair/EvilLair.unity
+    guid: dc8576d38512d4e3b91bb12e360ebbd6
   m_configObjects: {}
