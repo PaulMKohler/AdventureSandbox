@@ -17,3 +17,13 @@ Add items with the shift+A command.  Items will be added to where the 3D cursor 
 We can perform actions on the object (S) for scale (G) to grab, after pressing G we can press an Axis to limit movement to that axis. Or Shift+Axis to remove translation in that axis. You can pull out the item transform component from the blender inspector. (R) is for Rotate.
 
 Shift+D can duplicate shapes.
+
+Adding Color, make sure to pay attention to the display mode.
+
+Wireframe mode good to see overlaps. Material preview mode is where you can see what your materials all look like. Rendered mode shows whole scene including shadows.
+
+**Shading Edit Mode**  shows a shader editor at the bottom. If we need a new material we can create one in the screen at the bottom of the window. Same types of brightness, smoothness properties as we see in Unity.
+
+When scalang or moving we can go by local scale by changing option at top of blender.  We can also lock axis to local by pressing the axis twice.
+
+If we have multiple objects selected which we want to scale we can choose to scale them towards a center pivot or individual center points.
