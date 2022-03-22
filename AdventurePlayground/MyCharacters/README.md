@@ -27,3 +27,20 @@ Wireframe mode good to see overlaps. Material preview mode is where you can see 
 When scalang or moving we can go by local scale by changing option at top of blender.  We can also lock axis to local by pressing the axis twice.
 
 If we have multiple objects selected which we want to scale we can choose to scale them towards a center pivot or individual center points.
+
+------------
+
+#### Adding More Detail
+
+
+We can use background images to trace around and use as a guide.
+
+We can click and drag an image onto a blender file. This creates a sort of plane with the image, known as an Empty. What this means is that it wont appear on the render.
+
+We can press Option+R to undo rotations, and Option+G to undo translations. This will put image in center of coordinate plane.
+
+There is an X-Ray view at the top of the editor which will let us see through objects.
+
+We can adjust the opacity of the image to be able to see the axes through the image. Also we dont want to see the image in perspective mode so its a good idea to uncheck that.
+
+Line up the front view with the z-axis bi-sencting the front of the chest, line up the side view with the z-axis bisecting the side of the face.
