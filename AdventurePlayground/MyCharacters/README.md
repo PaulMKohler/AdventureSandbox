@@ -44,3 +44,9 @@ There is an X-Ray view at the top of the editor which will let us see through ob
 We can adjust the opacity of the image to be able to see the axes through the image. Also we dont want to see the image in perspective mode so its a good idea to uncheck that.
 
 Line up the front view with the z-axis bi-sencting the front of the chest, line up the side view with the z-axis bisecting the side of the face.
+
+We can start putting basic shapes over the outline in either view, front or side. Doesnt have to be perfect just follow the outline of one view and get it in place on the other.
+
+Select our shape and switch to **Edit mode**  And making sure we are in x-ray mode or wireframe box select vertices and move them to match our background image.  We may need to add vertices or faces, we can use Ctrl+R or **Loop Cut** to slice through our shape. Then grab the extra vertices to fill out the shape.
+
+You can use Tab to switch modes and select the next shape.
