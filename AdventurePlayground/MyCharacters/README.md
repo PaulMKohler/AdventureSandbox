@@ -50,3 +50,5 @@ We can start putting basic shapes over the outline in either view, front or side
 Select our shape and switch to **Edit mode**  And making sure we are in x-ray mode or wireframe box select vertices and move them to match our background image.  We may need to add vertices or faces, we can use Ctrl+R or **Loop Cut** to slice through our shape. Then grab the extra vertices to fill out the shape.
 
 You can use Tab to switch modes and select the next shape.
+
+Extruding a face creates a new set of vertices by extending the shape.  If we just want to select vertices in front of other ones we can go to solid mode instead of x-ray mode.
