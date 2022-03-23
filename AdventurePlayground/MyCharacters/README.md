@@ -60,3 +60,5 @@ We can add Modifiers with the **Wrench** We can add the Mirror property to the c
 Grabbing an object in edit move moves its pivot.
 
 Viewport Settings Face Orientation mode will show any faces in red that should not be viewable, and wont be in game. We can use clipping to prevent this.
+
+Make sure to add objects from object mode.
