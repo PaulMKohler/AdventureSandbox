@@ -52,3 +52,11 @@ Select our shape and switch to **Edit mode**  And making sure we are in x-ray mo
 You can use Tab to switch modes and select the next shape.
 
 Extruding a face creates a new set of vertices by extending the shape.  If we just want to select vertices in front of other ones we can go to solid mode instead of x-ray mode.
+
+The body which we are modeling is mirrored naturally so we can use blender mirroring to save some time.
+
+We can add Modifiers with the **Wrench** We can add the Mirror property to the cube.
+
+Grabbing an object in edit move moves its pivot.
+
+Viewport Settings Face Orientation mode will show any faces in red that should not be viewable, and wont be in game. We can use clipping to prevent this.
