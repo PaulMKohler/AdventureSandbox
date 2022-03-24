@@ -66,3 +66,9 @@ Make sure to add objects from object mode.
 Alt+Z toggles X-Ray mode.
 
 We can use other objects to provide the pivot point for mirroring, when enabling mirroring there is a slot for mirror object.  Ctrl+L allows us to copy modifiers from one object to another.
+
+###### Managing objects into collections
+
+Highlight objects to be in a collection and press M to put into a collection.
+
+For scene decoration we can make these non-selectible and hide visibility.
