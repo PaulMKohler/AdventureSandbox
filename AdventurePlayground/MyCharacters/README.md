@@ -62,3 +62,7 @@ Grabbing an object in edit move moves its pivot.
 Viewport Settings Face Orientation mode will show any faces in red that should not be viewable, and wont be in game. We can use clipping to prevent this.
 
 Make sure to add objects from object mode.
+
+Alt+Z toggles X-Ray mode.
+
+We can use other objects to provide the pivot point for mirroring, when enabling mirroring there is a slot for mirror object.  Ctrl+L allows us to copy modifiers from one object to another.
