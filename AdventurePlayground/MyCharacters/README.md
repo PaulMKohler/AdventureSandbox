@@ -72,3 +72,7 @@ We can use other objects to provide the pivot point for mirroring, when enabling
 Highlight objects to be in a collection and press M to put into a collection.
 
 For scene decoration we can make these non-selectible and hide visibility.
+
+------------
+
+If we need to scale around a non-median point we can move the cursor and then select to pivot around that. That widget is at the top of the editor.
