@@ -76,3 +76,7 @@ For scene decoration we can make these non-selectible and hide visibility.
 ------------
 
 If we need to scale around a non-median point we can move the cursor and then select to pivot around that. That widget is at the top of the editor.
+
+In the shading editor the same object can have different materials kept in slots.
+
+You can assign faces a material in edit mode.
