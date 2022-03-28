@@ -80,3 +80,7 @@ If we need to scale around a non-median point we can move the cursor and then se
 In the shading editor the same object can have different materials kept in slots.
 
 You can assign faces a material in edit mode.
+
+Preferences addon "Auto Mirror" allows for nice mirroring capabilities.
+
+G G does a slide on vertices.
