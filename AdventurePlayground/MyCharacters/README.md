@@ -84,3 +84,11 @@ You can assign faces a material in edit mode.
 Preferences addon "Auto Mirror" allows for nice mirroring capabilities.
 
 G G does a slide on vertices.
+
+-----------
+
+######Topology and Rigging
+
+Topology is the way that the faces are set up and how they relate to each other.
+
+Doing three loop cuts at joints allows for some flexibilty in animation.
