@@ -92,3 +92,18 @@ G G does a slide on vertices.
 Topology is the way that the faces are set up and how they relate to each other.
 
 Doing three loop cuts at joints allows for some flexibilty in animation.
+
+We can add vertices with loop cuts or the Knife tool.  We can auto merge vertices that overlap.
+
+-----------
+
+######UV Editing
+
+For bigger projects, we can use a pallet to map colors onto faces.  
+This is separate from materials editing, and in fact we should only have one material for this type of editing.
+
+We can add an Image texture to our Base Color in our Shading tab.
+
+After adding the image we can edit by going into the UV tab.
+
+We can make the painting process easier by selecting seams with edges, and pressing Alt+A to deselect then l over a seamed off area to highlight all the edges contained in those seams. Then scale to 0 grab and move to the part of the palette with the right color.
