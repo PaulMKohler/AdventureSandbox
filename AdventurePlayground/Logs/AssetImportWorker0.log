@@ -22,100 +22,100 @@ AssetImportWorker0
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-64833
+59541
 Successfully changed project path to: /Users/paulkohler/Repos/ACSandbox/AdventureSandbox/AdventurePlayground
 /Users/paulkohler/Repos/ACSandbox/AdventureSandbox/AdventurePlayground
 Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 77.09 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 75.20 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2020.3.29f1 (2ff179115da0)
 [Subsystems] Discovering subsystems at path /Applications/Unity/Hub/Editor/2020.3.29f1/Unity.app/Contents/Resources/UnitySubsystems
 [Subsystems] Discovering subsystems at path /Users/paulkohler/Repos/ACSandbox/AdventureSandbox/AdventurePlayground/Assets
 GfxDevice: creating device client; threaded=0
-2022-04-24 22:13:26.887 Unity[67037:19169480] (null) preferred device: Apple M1 (high power)
-2022-04-24 22:13:26.887 Unity[67037:19169480] Metal devices available: 1
-2022-04-24 22:13:26.887 Unity[67037:19169480] 0: Apple M1 (high power)
-2022-04-24 22:13:26.888 Unity[67037:19169480] Using device Apple M1 (high power)
+2022-04-25 21:26:38.639 Unity[90503:19653636] (null) preferred device: Apple M1 (high power)
+2022-04-25 21:26:38.639 Unity[90503:19653636] Metal devices available: 1
+2022-04-25 21:26:38.639 Unity[90503:19653636] 0: Apple M1 (high power)
+2022-04-25 21:26:38.639 Unity[90503:19653636] Using device Apple M1 (high power)
 Initializing Metal device caps: Apple M1
 Initialize mono
 Mono path[0] = '/Applications/Unity/Hub/Editor/2020.3.29f1/Unity.app/Contents/Managed'
 Mono path[1] = '/Applications/Unity/Hub/Editor/2020.3.29f1/Unity.app/Contents/MonoBleedingEdge/lib/mono/unityjit'
 Mono config path = '/Applications/Unity/Hub/Editor/2020.3.29f1/Unity.app/Contents/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56037
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56503
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: /Applications/Unity/Hub/Editor/2020.3.29f1/Unity.app/Contents/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll
-Registered in 0.001058 seconds.
+Registered in 0.001081 seconds.
 Native extension for OSXStandalone target not found
-Refreshing native plugins compatible for Editor in 39.05 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 38.75 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.423 seconds
+- Completed reload, in  1.358 seconds
 Domain Reload Profiling:
-	ReloadAssembly (1423ms)
-		BeginReloadAssembly (106ms)
+	ReloadAssembly (1358ms)
+		BeginReloadAssembly (114ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (3ms)
-		EndReloadAssembly (1188ms)
-			LoadAssemblies (103ms)
+		EndReloadAssembly (1116ms)
+			LoadAssemblies (111ms)
 			RebuildTransferFunctionScriptingTraits (1ms)
-			SetupTypeCache (195ms)
+			SetupTypeCache (196ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (45ms)
-			SetupLoadedEditorAssemblies (654ms)
+			RebuildScriptCaches (44ms)
+			SetupLoadedEditorAssemblies (565ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (12ms)
+				InitializePlatformSupportModulesInManaged (11ms)
 				SetLoadedEditorAssemblies (1ms)
 				RefreshPlugins (39ms)
-				BeforeProcessingInitializeOnLoad (105ms)
-				ProcessInitializeOnLoadAttributes (381ms)
-				ProcessInitializeOnLoadMethodAttributes (115ms)
+				BeforeProcessingInitializeOnLoad (84ms)
+				ProcessInitializeOnLoadAttributes (313ms)
+				ProcessInitializeOnLoadMethodAttributes (117ms)
 				AfterProcessingInitializeOnLoad (0ms)
 				EditorAssembliesLoaded (1ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.002036 seconds.
+Registered in 0.001870 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for OSXStandalone target not found
-Refreshing native plugins compatible for Editor in 0.40 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 0.45 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  2.336 seconds
+- Completed reload, in  2.281 seconds
 Domain Reload Profiling:
-	ReloadAssembly (2338ms)
-		BeginReloadAssembly (272ms)
+	ReloadAssembly (2283ms)
+		BeginReloadAssembly (315ms)
 			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (34ms)
+			DisableScriptedObjects (38ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (43ms)
-		EndReloadAssembly (1969ms)
-			LoadAssemblies (192ms)
+			CreateAndSetChildDomain (48ms)
+		EndReloadAssembly (1869ms)
+			LoadAssemblies (210ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (361ms)
-			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (77ms)
-			SetupLoadedEditorAssemblies (1014ms)
+			SetupTypeCache (347ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (70ms)
+			SetupLoadedEditorAssemblies (1000ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (16ms)
+				InitializePlatformSupportModulesInManaged (14ms)
 				SetLoadedEditorAssemblies (2ms)
 				RefreshPlugins (0ms)
-				BeforeProcessingInitializeOnLoad (203ms)
-				ProcessInitializeOnLoadAttributes (762ms)
+				BeforeProcessingInitializeOnLoad (205ms)
+				ProcessInitializeOnLoadAttributes (748ms)
 				ProcessInitializeOnLoadMethodAttributes (29ms)
 				AfterProcessingInitializeOnLoad (1ms)
 				EditorAssembliesLoaded (1ms)
 			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (32ms)
+			AwakeInstancesAfterBackupRestoration (29ms)
 Platform modules already initialized, skipping
-Validating Project structure ... 0.014640 seconds.
+Validating Project structure ... 0.033285 seconds.
 Shader import version has changed; will reimport all shaders...
-Upgrading shader files ...0.016685 seconds.
+Upgrading shader files ...0.017701 seconds.
 Application.AssetDatabase Initial Script Refresh Start
 RefreshInfo: InitialScriptRefreshV2(NoUpdateAssetOptions) scanfilter:  ... 1 filters
 RefreshProfiler: Total: 0.000ms
@@ -125,18 +125,18 @@ Application.AssetDatabase.Refresh End
 RefreshInfo: StopAssetImportingV2(ForceSynchronousImport) scanfilter: 
 RefreshProfiler: Total: 0.000ms
 Launching external process: /Applications/Unity/Hub/Editor/2020.3.29f1/Unity.app/Contents/Tools/UnityShaderCompiler
-Launched and connected shader compiler UnityShaderCompiler after 0.04 seconds
+Launched and connected shader compiler UnityShaderCompiler after 0.03 seconds
 Initializing Unity extensions:
 ========================================================================
 Worker process is ready to serve import requests
-Refreshing native plugins compatible for Editor in 0.36 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 0.37 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 2042 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 204.4 MB.
-System memory in use after: 203.6 MB.
+System memory in use before: 204.7 MB.
+System memory in use after: 204.0 MB.
 
 Unloading 219 unused Assets to reduce memory usage. Loaded Objects now: 2522.
-Total: 3.432333 ms (FindLiveObjects: 0.122709 ms CreateObjectMapping: 0.042250 ms MarkObjects: 2.757625 ms  DeleteObjects: 0.508875 ms)
+Total: 4.673833 ms (FindLiveObjects: 0.106375 ms CreateObjectMapping: 0.041125 ms MarkObjects: 3.901208 ms  DeleteObjects: 0.624250 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
@@ -150,128 +150,436 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  path: Assets/Tutorial/Anime Girl.blend
-  artifactKey: Guid(4c252f881c31e4be695fcd0f24e6e833) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tutorial/Anime Girl.blend using Guid(4c252f881c31e4be695fcd0f24e6e833) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '539079d6c58233ad15404c82e9ada158') in 1.148326 seconds 
-  Import took 1.155357 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 1185.161202 seconds.
-  path: Assets/Anime Girl.blend
-  artifactKey: Guid(f220af5b942ed4e01b5a6418e1783f81) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Anime Girl.blend using Guid(f220af5b942ed4e01b5a6418e1783f81) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cc497792c29e62550b4cc910f30f3b85') in 0.090978 seconds 
-  Import took 0.108020 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 143.703945 seconds.
-  path: Assets/Anime Person
-  artifactKey: Guid(5cd516bc0380d41e3a0919e227d807c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Anime Person using Guid(5cd516bc0380d41e3a0919e227d807c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8d86ea134dec80cc86021dd3e0f8af11') in 0.009510 seconds 
-  Import took 0.041423 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 1011.978011 seconds.
-  path: Assets/Anime Person/Textures
-  artifactKey: Guid(39ece86f319a143e49c72a7a38ad6198) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Anime Person/Textures using Guid(39ece86f319a143e49c72a7a38ad6198) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6ecca06ee66421db9946115dbdcc4a26') in 0.006725 seconds 
-  Import took 0.019822 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 11.128056 seconds.
-  path: Assets/Anime Person/Materials
-  artifactKey: Guid(8635eec3f6df440a3b2136c23afc61f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Anime Person/Materials using Guid(8635eec3f6df440a3b2136c23afc61f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '43f6072542bf97c20e1b7d9008b468da') in 0.001671 seconds 
-  Import took 0.005997 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 200.390702 seconds.
-  path: Assets/Anime Person/Anime Girl.blend
-  artifactKey: Guid(f220af5b942ed4e01b5a6418e1783f81) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Anime Person/Anime Girl.blend using Guid(f220af5b942ed4e01b5a6418e1783f81) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e4b4ecfb466557c933c7d1d84100762e') in 0.068083 seconds 
-  Import took 0.083917 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 2184.168079 seconds.
-  path: Assets/Anime Person/Anime Girl.blend
-  artifactKey: Guid(f220af5b942ed4e01b5a6418e1783f81) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Anime Person/Anime Girl.blend using Guid(f220af5b942ed4e01b5a6418e1783f81) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5299ed1c70063c757367e2e270d561c4') in 0.102963 seconds 
-  Import took 0.114691 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 282.703574 seconds.
-  path: Assets/Anime Person/Materials/colour pallette.png
-  artifactKey: Guid(837e5cef58308496c8744867bbe15cdf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Anime Person/Materials/colour pallette.png using Guid(837e5cef58308496c8744867bbe15cdf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e79a13645b27b3743dc77bbe95c07d65') in 0.999477 seconds 
-  Import took 1.017616 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 17.989077 seconds.
-  path: Assets/Anime Person/Materials/colour pallette.png
-  artifactKey: Guid(837e5cef58308496c8744867bbe15cdf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Anime Person/Materials/colour pallette.png using Guid(837e5cef58308496c8744867bbe15cdf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cf2ac4533bf0006c133e634d5f99d782') in 0.008714 seconds 
-  Import took 0.014100 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 2035.292260 seconds.
   path: Assets/Anime Person/Anime Girl Unity.fbx
   artifactKey: Guid(9d98acab63152430ab6e16cb1984e92c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Anime Person/Anime Girl Unity.fbx using Guid(9d98acab63152430ab6e16cb1984e92c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dcc61e2fd5d75ca4d30802a8bfc58b4a') in 0.767351 seconds 
-  Import took 0.782863 seconds .
+Start importing Assets/Anime Person/Anime Girl Unity.fbx using Guid(9d98acab63152430ab6e16cb1984e92c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6c034373a33345b087680f6e3b66b110') in 1.244194 seconds 
+  Import took 1.252890 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 639.532204 seconds.
+  Time since last request: 23.283091 seconds.
   path: Assets/Anime Person/Anime Girl Unity.fbx
   artifactKey: Guid(9d98acab63152430ab6e16cb1984e92c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Anime Person/Anime Girl Unity.fbx using Guid(9d98acab63152430ab6e16cb1984e92c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '935fb6f73d13f5fb70cb7bb7948e5211') in 0.046068 seconds 
-  Import took 0.073233 seconds .
+Start importing Assets/Anime Person/Anime Girl Unity.fbx using Guid(9d98acab63152430ab6e16cb1984e92c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4ba20974646efdb30326c9ab8ca6fb4b') in 0.074969 seconds 
+  Import took 0.078848 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 1460.612754 seconds.
-  path: Assets/Anime Person/Materials/colour pallette.png
-  artifactKey: Guid(837e5cef58308496c8744867bbe15cdf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Anime Person/Materials/colour pallette.png using Guid(837e5cef58308496c8744867bbe15cdf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2fe8930d5ce33ad1cb948cbbc670bb2c') in 0.024216 seconds 
-  Import took 0.057606 seconds .
+  Time since last request: 117.220359 seconds.
+  path: Assets/Anime Person/Anime Girl@Swagger Walk.fbx
+  artifactKey: Guid(3b80b927880ab4000b433927134fb069) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Anime Person/Anime Girl@Swagger Walk.fbx using Guid(3b80b927880ab4000b433927134fb069) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5b2fd3b431fc97afabe9df7fdaf7269d') in 0.040881 seconds 
+  Import took 0.050856 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 34.641857 seconds.
-  path: Assets/Anime Person/Materials/colour pallette.png
-  artifactKey: Guid(837e5cef58308496c8744867bbe15cdf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Anime Person/Materials/colour pallette.png using Guid(837e5cef58308496c8744867bbe15cdf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '02a1d4f80847a7f4415151894fde4e26') in 0.289318 seconds 
-  Import took 0.294447 seconds .
+  Time since last request: 81.558008 seconds.
+  path: Assets/Anime Person/Anime Girl Unity.fbx
+  artifactKey: Guid(9d98acab63152430ab6e16cb1984e92c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Anime Person/Anime Girl Unity.fbx using Guid(9d98acab63152430ab6e16cb1984e92c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9220432b46f8085de3f278804832214c') in 0.063881 seconds 
+  Import took 0.075626 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 21.097543 seconds.
-  path: Assets/Anime Person/Materials/colour pallette.png
-  artifactKey: Guid(837e5cef58308496c8744867bbe15cdf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Anime Person/Materials/colour pallette.png using Guid(837e5cef58308496c8744867bbe15cdf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c7c6283e32fefd1ee2330c7e047c2613') in 0.146178 seconds 
-  Import took 0.151378 seconds .
+  Time since last request: 7.131146 seconds.
+  path: Assets/Anime Person/Anime Girl@Swagger Walk.fbx
+  artifactKey: Guid(3b80b927880ab4000b433927134fb069) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Anime Person/Anime Girl@Swagger Walk.fbx using Guid(3b80b927880ab4000b433927134fb069) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bbc65515d21f90f90ec1093247c3bc03') in 0.009432 seconds 
+  Import took 0.013258 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 14.950250 seconds.
-  path: Assets/Anime Person/Materials/colour pallette.png
-  artifactKey: Guid(837e5cef58308496c8744867bbe15cdf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Anime Person/Materials/colour pallette.png using Guid(837e5cef58308496c8744867bbe15cdf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '593cc3305abae9c0ad499da7d9b3e1d3') in 0.027235 seconds 
-  Import took 0.031962 seconds .
+  Time since last request: 110.952321 seconds.
+  path: Assets/Anime Person/Anime Girl Unity.fbx
+  artifactKey: Guid(9d98acab63152430ab6e16cb1984e92c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Anime Person/Anime Girl Unity.fbx using Guid(9d98acab63152430ab6e16cb1984e92c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '006e495d6093c907e89617e422cbf78f') in 0.041973 seconds 
+  Import took 0.051415 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 491.443726 seconds.
-  path: Assets/Anime Person/Materials/colour pallette.png
-  artifactKey: Guid(837e5cef58308496c8744867bbe15cdf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Anime Person/Materials/colour pallette.png using Guid(837e5cef58308496c8744867bbe15cdf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a62bca2d1ff08016ccc0a2cf203abd48') in 0.021569 seconds 
-  Import took 0.044446 seconds .
+  Time since last request: 9246.155626 seconds.
+  path: Assets/Anime Person/AnimeForUnity.fbx
+  artifactKey: Guid(ce389283376854b0e886274e444ed58a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Anime Person/AnimeForUnity.fbx using Guid(ce389283376854b0e886274e444ed58a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b37fba82e3a0da13a6a3aca9f48f9c3e') in 0.394510 seconds 
+  Import took 0.456911 seconds .
 
+========================================================================
+Received Import Request.
+  Time since last request: 29.445463 seconds.
+  path: Assets/Anime Person/AnimeForUnity.fbx
+  artifactKey: Guid(ce389283376854b0e886274e444ed58a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Anime Person/AnimeForUnity.fbx using Guid(ce389283376854b0e886274e444ed58a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0b63d2f47a2816d9a681d8d034004407') in 0.069767 seconds 
+  Import took 0.098643 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 79.085816 seconds.
+  path: Assets/Anime Person/AnimeForUnity.fbx
+  artifactKey: Guid(ce389283376854b0e886274e444ed58a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Anime Person/AnimeForUnity.fbx using Guid(ce389283376854b0e886274e444ed58a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e863dcb140b19b886bc5bc8cff42e52a') in 0.062116 seconds 
+  Import took 0.071839 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 44.777209 seconds.
+  path: Assets/Anime Person/colour pallette.png
+  artifactKey: Guid(cc0c1fd4ff176413882c458c3dd6f99a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Anime Person/colour pallette.png using Guid(cc0c1fd4ff176413882c458c3dd6f99a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '97a7b055393f0bf5053f33b2445077ed') in 0.826596 seconds 
+  Import took 0.837863 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 20.305158 seconds.
+  path: Assets/Anime Person/colour pallette.png
+  artifactKey: Guid(cc0c1fd4ff176413882c458c3dd6f99a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Anime Person/colour pallette.png using Guid(cc0c1fd4ff176413882c458c3dd6f99a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e6ac1c5ff5d25a91cafd8b2a1efe4385') in 0.010095 seconds 
+  Import took 0.013130 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 100.159075 seconds.
+  path: Assets/Anime Person/Test.controller
+  artifactKey: Guid(0a51713e958614fa88208e6045b2ac30) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Anime Person/Test.controller using Guid(0a51713e958614fa88208e6045b2ac30) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '32bf5be89cd3281ed224f6adf81ad578') in 0.307983 seconds 
+  Import took 0.318899 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002398 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 0.39 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+CreateSerializedAsset is not supported while importing out-of-process
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at /Users/bokken/buildslave/unity/build/Runtime/Export/Scripting/StackTrace.cs:37)
+AC.ACEditorPrefs:GetOrCreateSettings () (at /Users/paulkohler/Repos/ACSandbox/AdventurePlayground/Assets/AdventureCreator/Scripts/Managers/ACEditorPrefs.cs:96)
+AC.ACEditorPrefs:get_DisableInstaller () (at /Users/paulkohler/Repos/ACSandbox/AdventurePlayground/Assets/AdventureCreator/Scripts/Managers/ACEditorPrefs.cs:334)
+AC.ACInstaller:IsInstalled () (at /Users/paulkohler/Repos/ACSandbox/AdventurePlayground/Assets/AdventureCreator/Scripts/Managers/Editor/ACInstaller.cs:37)
+AC.ACInstaller:CheckInstall () (at /Users/paulkohler/Repos/ACSandbox/AdventurePlayground/Assets/AdventureCreator/Scripts/Managers/Editor/ACInstaller.cs:52)
+AC.ACInstaller:.cctor () (at /Users/paulkohler/Repos/ACSandbox/AdventurePlayground/Assets/AdventureCreator/Scripts/Managers/Editor/ACInstaller.cs:31)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[]) (at /Users/bokken/buildslave/unity/build/Editor/Mono/EditorAssemblies.cs:134)
+
+[/Users/paulkohler/Repos/ACSandbox/AdventurePlayground/Assets/AdventureCreator/Scripts/Managers/ACEditorPrefs.cs line 96]
+
+UnityEngine.UnityException: Creating asset at path Assets/AdventureCreator/Editor/ACEditorPrefs.asset failed.
+  at (wrapper managed-to-native) UnityEditor.AssetDatabase.CreateAsset(UnityEngine.Object,string)
+  at AC.ACEditorPrefs.GetOrCreateSettings () [0x00115] in /Users/paulkohler/Repos/ACSandbox/AdventurePlayground/Assets/AdventureCreator/Scripts/Managers/ACEditorPrefs.cs:96 
+  at AC.ACEditorPrefs.get_DisableInstaller () [0x00000] in /Users/paulkohler/Repos/ACSandbox/AdventurePlayground/Assets/AdventureCreator/Scripts/Managers/ACEditorPrefs.cs:334 
+  at AC.ACInstaller.IsInstalled () [0x00000] in /Users/paulkohler/Repos/ACSandbox/AdventurePlayground/Assets/AdventureCreator/Scripts/Managers/Editor/ACInstaller.cs:37 
+  at AC.ACInstaller.CheckInstall () [0x00000] in /Users/paulkohler/Repos/ACSandbox/AdventurePlayground/Assets/AdventureCreator/Scripts/Managers/Editor/ACInstaller.cs:52 
+  at AC.ACInstaller..cctor () [0x00000] in /Users/paulkohler/Repos/ACSandbox/AdventurePlayground/Assets/AdventureCreator/Scripts/Managers/Editor/ACInstaller.cs:31 
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at /Users/bokken/buildslave/unity/build/Runtime/Export/Scripting/StackTrace.cs:37)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[]) (at /Users/bokken/buildslave/unity/build/Editor/Mono/EditorAssemblies.cs:138)
+
+(Filename: /Users/bokken/buildslave/unity/build/Editor/Mono/EditorAssemblies.cs Line: 138)
+
+Mono: successfully reloaded assembly
+- Completed reload, in  2.438 seconds
+Domain Reload Profiling:
+	ReloadAssembly (2439ms)
+		BeginReloadAssembly (315ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (36ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (123ms)
+		EndReloadAssembly (2021ms)
+			LoadAssemblies (249ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (349ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (53ms)
+			SetupLoadedEditorAssemblies (1128ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (15ms)
+				SetLoadedEditorAssemblies (2ms)
+				RefreshPlugins (0ms)
+				BeforeProcessingInitializeOnLoad (254ms)
+				ProcessInitializeOnLoadAttributes (827ms)
+				ProcessInitializeOnLoadMethodAttributes (29ms)
+				AfterProcessingInitializeOnLoad (1ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (32ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.38 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2032 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 229.6 MB.
+System memory in use after: 229.8 MB.
+
+Unloading 13 unused Assets to reduce memory usage. Loaded Objects now: 2571.
+Total: 2.029084 ms (FindLiveObjects: 0.100625 ms CreateObjectMapping: 0.040542 ms MarkObjects: 1.858584 ms  DeleteObjects: 0.028417 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.004178 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 0.41 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+CreateSerializedAsset is not supported while importing out-of-process
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at /Users/bokken/buildslave/unity/build/Runtime/Export/Scripting/StackTrace.cs:37)
+AC.ACEditorPrefs:GetOrCreateSettings () (at /Users/paulkohler/Repos/ACSandbox/AdventurePlayground/Assets/AdventureCreator/Scripts/Managers/ACEditorPrefs.cs:96)
+AC.ACEditorPrefs:get_DisableInstaller () (at /Users/paulkohler/Repos/ACSandbox/AdventurePlayground/Assets/AdventureCreator/Scripts/Managers/ACEditorPrefs.cs:334)
+AC.ACInstaller:IsInstalled () (at /Users/paulkohler/Repos/ACSandbox/AdventurePlayground/Assets/AdventureCreator/Scripts/Managers/Editor/ACInstaller.cs:37)
+AC.ACInstaller:CheckInstall () (at /Users/paulkohler/Repos/ACSandbox/AdventurePlayground/Assets/AdventureCreator/Scripts/Managers/Editor/ACInstaller.cs:52)
+AC.ACInstaller:.cctor () (at /Users/paulkohler/Repos/ACSandbox/AdventurePlayground/Assets/AdventureCreator/Scripts/Managers/Editor/ACInstaller.cs:31)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[]) (at /Users/bokken/buildslave/unity/build/Editor/Mono/EditorAssemblies.cs:134)
+
+[/Users/paulkohler/Repos/ACSandbox/AdventurePlayground/Assets/AdventureCreator/Scripts/Managers/ACEditorPrefs.cs line 96]
+
+UnityEngine.UnityException: Creating asset at path Assets/AdventureCreator/Editor/ACEditorPrefs.asset failed.
+  at (wrapper managed-to-native) UnityEditor.AssetDatabase.CreateAsset(UnityEngine.Object,string)
+  at AC.ACEditorPrefs.GetOrCreateSettings () [0x00115] in /Users/paulkohler/Repos/ACSandbox/AdventurePlayground/Assets/AdventureCreator/Scripts/Managers/ACEditorPrefs.cs:96 
+  at AC.ACEditorPrefs.get_DisableInstaller () [0x00000] in /Users/paulkohler/Repos/ACSandbox/AdventurePlayground/Assets/AdventureCreator/Scripts/Managers/ACEditorPrefs.cs:334 
+  at AC.ACInstaller.IsInstalled () [0x00000] in /Users/paulkohler/Repos/ACSandbox/AdventurePlayground/Assets/AdventureCreator/Scripts/Managers/Editor/ACInstaller.cs:37 
+  at AC.ACInstaller.CheckInstall () [0x00000] in /Users/paulkohler/Repos/ACSandbox/AdventurePlayground/Assets/AdventureCreator/Scripts/Managers/Editor/ACInstaller.cs:52 
+  at AC.ACInstaller..cctor () [0x00000] in /Users/paulkohler/Repos/ACSandbox/AdventurePlayground/Assets/AdventureCreator/Scripts/Managers/Editor/ACInstaller.cs:31 
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at /Users/bokken/buildslave/unity/build/Runtime/Export/Scripting/StackTrace.cs:37)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[]) (at /Users/bokken/buildslave/unity/build/Editor/Mono/EditorAssemblies.cs:138)
+
+(Filename: /Users/bokken/buildslave/unity/build/Editor/Mono/EditorAssemblies.cs Line: 138)
+
+Mono: successfully reloaded assembly
+- Completed reload, in  2.345 seconds
+Domain Reload Profiling:
+	ReloadAssembly (2347ms)
+		BeginReloadAssembly (295ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (37ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (101ms)
+		EndReloadAssembly (1951ms)
+			LoadAssemblies (237ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (342ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (55ms)
+			SetupLoadedEditorAssemblies (1067ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (14ms)
+				SetLoadedEditorAssemblies (2ms)
+				RefreshPlugins (0ms)
+				BeforeProcessingInitializeOnLoad (242ms)
+				ProcessInitializeOnLoadAttributes (778ms)
+				ProcessInitializeOnLoadMethodAttributes (29ms)
+				AfterProcessingInitializeOnLoad (1ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (35ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.38 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2032 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 229.9 MB.
+System memory in use after: 230.0 MB.
+
+Unloading 12 unused Assets to reduce memory usage. Loaded Objects now: 2574.
+Total: 1.955542 ms (FindLiveObjects: 0.090334 ms CreateObjectMapping: 0.038541 ms MarkObjects: 1.796375 ms  DeleteObjects: 0.029667 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.007629 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 0.39 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+CreateSerializedAsset is not supported while importing out-of-process
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at /Users/bokken/buildslave/unity/build/Runtime/Export/Scripting/StackTrace.cs:37)
+AC.ACEditorPrefs:GetOrCreateSettings () (at /Users/paulkohler/Repos/ACSandbox/AdventurePlayground/Assets/AdventureCreator/Scripts/Managers/ACEditorPrefs.cs:96)
+AC.ACEditorPrefs:get_DisableInstaller () (at /Users/paulkohler/Repos/ACSandbox/AdventurePlayground/Assets/AdventureCreator/Scripts/Managers/ACEditorPrefs.cs:334)
+AC.ACInstaller:IsInstalled () (at /Users/paulkohler/Repos/ACSandbox/AdventurePlayground/Assets/AdventureCreator/Scripts/Managers/Editor/ACInstaller.cs:37)
+AC.ACInstaller:CheckInstall () (at /Users/paulkohler/Repos/ACSandbox/AdventurePlayground/Assets/AdventureCreator/Scripts/Managers/Editor/ACInstaller.cs:52)
+AC.ACInstaller:.cctor () (at /Users/paulkohler/Repos/ACSandbox/AdventurePlayground/Assets/AdventureCreator/Scripts/Managers/Editor/ACInstaller.cs:31)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[]) (at /Users/bokken/buildslave/unity/build/Editor/Mono/EditorAssemblies.cs:134)
+
+[/Users/paulkohler/Repos/ACSandbox/AdventurePlayground/Assets/AdventureCreator/Scripts/Managers/ACEditorPrefs.cs line 96]
+
+UnityEngine.UnityException: Creating asset at path Assets/AdventureCreator/Editor/ACEditorPrefs.asset failed.
+  at (wrapper managed-to-native) UnityEditor.AssetDatabase.CreateAsset(UnityEngine.Object,string)
+  at AC.ACEditorPrefs.GetOrCreateSettings () [0x00115] in /Users/paulkohler/Repos/ACSandbox/AdventurePlayground/Assets/AdventureCreator/Scripts/Managers/ACEditorPrefs.cs:96 
+  at AC.ACEditorPrefs.get_DisableInstaller () [0x00000] in /Users/paulkohler/Repos/ACSandbox/AdventurePlayground/Assets/AdventureCreator/Scripts/Managers/ACEditorPrefs.cs:334 
+  at AC.ACInstaller.IsInstalled () [0x00000] in /Users/paulkohler/Repos/ACSandbox/AdventurePlayground/Assets/AdventureCreator/Scripts/Managers/Editor/ACInstaller.cs:37 
+  at AC.ACInstaller.CheckInstall () [0x00000] in /Users/paulkohler/Repos/ACSandbox/AdventurePlayground/Assets/AdventureCreator/Scripts/Managers/Editor/ACInstaller.cs:52 
+  at AC.ACInstaller..cctor () [0x00000] in /Users/paulkohler/Repos/ACSandbox/AdventurePlayground/Assets/AdventureCreator/Scripts/Managers/Editor/ACInstaller.cs:31 
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at /Users/bokken/buildslave/unity/build/Runtime/Export/Scripting/StackTrace.cs:37)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[]) (at /Users/bokken/buildslave/unity/build/Editor/Mono/EditorAssemblies.cs:138)
+
+(Filename: /Users/bokken/buildslave/unity/build/Editor/Mono/EditorAssemblies.cs Line: 138)
+
+Mono: successfully reloaded assembly
+- Completed reload, in  2.368 seconds
+Domain Reload Profiling:
+	ReloadAssembly (2369ms)
+		BeginReloadAssembly (265ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (38ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (94ms)
+		EndReloadAssembly (2011ms)
+			LoadAssemblies (222ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (356ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (53ms)
+			SetupLoadedEditorAssemblies (1119ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (13ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (0ms)
+				BeforeProcessingInitializeOnLoad (254ms)
+				ProcessInitializeOnLoadAttributes (822ms)
+				ProcessInitializeOnLoadMethodAttributes (26ms)
+				AfterProcessingInitializeOnLoad (1ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (32ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.41 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2032 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 230.0 MB.
+System memory in use after: 230.2 MB.
+
+Unloading 12 unused Assets to reduce memory usage. Loaded Objects now: 2577.
+Total: 2.073292 ms (FindLiveObjects: 0.098416 ms CreateObjectMapping: 0.041375 ms MarkObjects: 1.903708 ms  DeleteObjects: 0.028875 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 1032.068590 seconds.
+  path: Assets/Anime Person/AnimeForUnity.fbx
+  artifactKey: Guid(ce389283376854b0e886274e444ed58a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Anime Person/AnimeForUnity.fbx using Guid(ce389283376854b0e886274e444ed58a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '659cb01aedafe22754d7b66b95b643ef') in 0.239993 seconds 
+  Import took 0.244505 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002857 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 0.40 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+CreateSerializedAsset is not supported while importing out-of-process
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at /Users/bokken/buildslave/unity/build/Runtime/Export/Scripting/StackTrace.cs:37)
+AC.ACEditorPrefs:GetOrCreateSettings () (at /Users/paulkohler/Repos/ACSandbox/AdventurePlayground/Assets/AdventureCreator/Scripts/Managers/ACEditorPrefs.cs:96)
+AC.ACEditorPrefs:get_DisableInstaller () (at /Users/paulkohler/Repos/ACSandbox/AdventurePlayground/Assets/AdventureCreator/Scripts/Managers/ACEditorPrefs.cs:334)
+AC.ACInstaller:IsInstalled () (at /Users/paulkohler/Repos/ACSandbox/AdventurePlayground/Assets/AdventureCreator/Scripts/Managers/Editor/ACInstaller.cs:37)
+AC.ACInstaller:CheckInstall () (at /Users/paulkohler/Repos/ACSandbox/AdventurePlayground/Assets/AdventureCreator/Scripts/Managers/Editor/ACInstaller.cs:52)
+AC.ACInstaller:.cctor () (at /Users/paulkohler/Repos/ACSandbox/AdventurePlayground/Assets/AdventureCreator/Scripts/Managers/Editor/ACInstaller.cs:31)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[]) (at /Users/bokken/buildslave/unity/build/Editor/Mono/EditorAssemblies.cs:134)
+
+[/Users/paulkohler/Repos/ACSandbox/AdventurePlayground/Assets/AdventureCreator/Scripts/Managers/ACEditorPrefs.cs line 96]
+
+UnityEngine.UnityException: Creating asset at path Assets/AdventureCreator/Editor/ACEditorPrefs.asset failed.
+  at (wrapper managed-to-native) UnityEditor.AssetDatabase.CreateAsset(UnityEngine.Object,string)
+  at AC.ACEditorPrefs.GetOrCreateSettings () [0x00115] in /Users/paulkohler/Repos/ACSandbox/AdventurePlayground/Assets/AdventureCreator/Scripts/Managers/ACEditorPrefs.cs:96 
+  at AC.ACEditorPrefs.get_DisableInstaller () [0x00000] in /Users/paulkohler/Repos/ACSandbox/AdventurePlayground/Assets/AdventureCreator/Scripts/Managers/ACEditorPrefs.cs:334 
+  at AC.ACInstaller.IsInstalled () [0x00000] in /Users/paulkohler/Repos/ACSandbox/AdventurePlayground/Assets/AdventureCreator/Scripts/Managers/Editor/ACInstaller.cs:37 
+  at AC.ACInstaller.CheckInstall () [0x00000] in /Users/paulkohler/Repos/ACSandbox/AdventurePlayground/Assets/AdventureCreator/Scripts/Managers/Editor/ACInstaller.cs:52 
+  at AC.ACInstaller..cctor () [0x00000] in /Users/paulkohler/Repos/ACSandbox/AdventurePlayground/Assets/AdventureCreator/Scripts/Managers/Editor/ACInstaller.cs:31 
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at /Users/bokken/buildslave/unity/build/Runtime/Export/Scripting/StackTrace.cs:37)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[]) (at /Users/bokken/buildslave/unity/build/Editor/Mono/EditorAssemblies.cs:138)
+
+(Filename: /Users/bokken/buildslave/unity/build/Editor/Mono/EditorAssemblies.cs Line: 138)
+
+Mono: successfully reloaded assembly
+- Completed reload, in  2.518 seconds
+Domain Reload Profiling:
+	ReloadAssembly (2520ms)
+		BeginReloadAssembly (293ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (39ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (108ms)
+		EndReloadAssembly (2124ms)
+			LoadAssemblies (240ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (362ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (56ms)
+			SetupLoadedEditorAssemblies (1207ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (19ms)
+				SetLoadedEditorAssemblies (2ms)
+				RefreshPlugins (0ms)
+				BeforeProcessingInitializeOnLoad (292ms)
+				ProcessInitializeOnLoadAttributes (864ms)
+				ProcessInitializeOnLoadMethodAttributes (29ms)
+				AfterProcessingInitializeOnLoad (1ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (30ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.39 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2032 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 230.3 MB.
+System memory in use after: 230.4 MB.
+
+Unloading 12 unused Assets to reduce memory usage. Loaded Objects now: 2581.
+Total: 2.071000 ms (FindLiveObjects: 0.111166 ms CreateObjectMapping: 0.059792 ms MarkObjects: 1.862042 ms  DeleteObjects: 0.037167 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
